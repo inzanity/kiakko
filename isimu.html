@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Interaktiivinen simulaattori</title>
+  <style>
+   table {
+    border-collapse: collapse;
+   }
+   label {
+    display: block;
+   }
+   td {
+    padding: 2px;
+   }
+   td.split {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: #666666;
+   }
+   tr.split {
+    border-bottom: 1px solid black;
+   }
+   td:nth-child(n + 2) {
+    text-align: center;
+   }
+   .certain {
+    background: #00ffff;
+   }
+   .never {
+    background: #ff0000;
+   }
+   .likely {
+    background: #00ff00;
+   }
+   .probable {
+    background: #33ff33;
+   }
+   .possible {
+    background: #66ff66;
+   }
+   .unlikely {
+    background: #99ff99;
+   }
+   .bluemoon {
+    background: #bbffbb;
+   }
+  </style>
+  <script src="isimu.js"></script>
+ </head>
+ <body>
+  <fieldset>
+   <legend>Elo-vakiot</legend>
+   <label for="k">K: <input type="text" id="k" value="32"></label>
+   <label for="hadv">Kotietu: <input type="text" id="hadv" value="58"></label>
+  </fieldset>
+  <fieldset>
+   <legend>Simulaatiovakiot</legend>
+   <label for="otp">Jatko-tn: <input type="text" id="otp" value="23">%</label>
+   <label for="iter">Kierrokset: <input type="text" id="iters" value="100000"></label>
+  </fieldset>
+  <fieldset>
+   <legend>Tulosasetukset</legend>
+   <label for="splits">Jakajat: <input type="text" id="splits" value="4|12|14"></label>
+  </fieldset>
+  <table>
+   <thead>
+    <tr><th>Joukkue</th><th>O</th><th>V</th><th>P</th><th>Elo</th></tr>
+   </thead>
+   <tbody id="standings">
+   </tbody>
+  </table>
+  <table>
+   <thead>
+    <tr id="res-hdr"> </tr>
+   </thead>
+   <tbody id="res-data">
+   </tbody>
+  </table>
+ </body>
+</html>

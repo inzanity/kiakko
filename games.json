@@ -1,0 +1,3263 @@
+[
+  {
+    "away": "K-Espoo",
+    "awayScore": 2,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 5,
+    "played": "20240910"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 3,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 7,
+    "played": "20240910"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "JYP",
+    "homeScore": 3,
+    "played": "20240910"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 3,
+    "played": "20240910"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "Lukko",
+    "homeScore": 3,
+    "played": "20240910"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "Sport",
+    "homeScore": 2,
+    "played": "20240910"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Tappara",
+    "homeScore": 2,
+    "played": "20240910"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "HPK",
+    "homeScore": 3,
+    "played": "20240913"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 3,
+    "played": "20240913"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 1,
+    "played": "20240913"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 2,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 3,
+    "played": "20240913"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "Lukko",
+    "homeScore": 3,
+    "played": "20240913"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 3,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 2,
+    "played": "20240913"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "SaiPa",
+    "homeScore": 2,
+    "played": "20240914"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 4,
+    "played": "20240914"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "TPS",
+    "homeScore": 2,
+    "played": "20240914"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 2,
+    "played": "20240914"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 0,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 3,
+    "played": "20240917"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 2,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 6,
+    "played": "20240918"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 4,
+    "played": "20240918"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 6,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 4,
+    "played": "20240918"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Lukko",
+    "homeScore": 2,
+    "played": "20240918"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 5,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 2,
+    "played": "20240918"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 4,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 3,
+    "played": "20240919"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 4,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 0,
+    "played": "20240920"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 0,
+    "played": "20240920"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 1,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 4,
+    "played": "20240920"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 2,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 3,
+    "played": "20240920"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 5,
+    "det": "OT",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20240920"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 4,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 1,
+    "played": "20240920"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 8,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 4,
+    "played": "20240921"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 3,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 6,
+    "played": "20240921"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 2,
+    "played": "20240921"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 2,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 3,
+    "played": "20240921"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 6,
+    "played": "20240921"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "Sport",
+    "homeScore": 3,
+    "played": "20240921"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 0,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 5,
+    "played": "20240921"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 1,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 3,
+    "played": "20240924"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 5,
+    "played": "20240925"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "Jukurit",
+    "homeScore": 4,
+    "played": "20240925"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 2,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 4,
+    "played": "20240925"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 3,
+    "played": "20240925"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 5,
+    "det": "SO",
+    "home": "TPS",
+    "homeScore": 6,
+    "played": "20240925"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 2,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 5,
+    "played": "20240927"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 1,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 2,
+    "played": "20240927"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 3,
+    "played": "20240927"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 2,
+    "played": "20240927"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 1,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 4,
+    "played": "20240927"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 6,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20240927"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 4,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 3,
+    "played": "20240927"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 5,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 2,
+    "played": "20240928"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 3,
+    "played": "20240928"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 5,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20240928"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 1,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 2,
+    "played": "20240928"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "K-Espoo",
+    "homeScore": 1,
+    "played": "20240928"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 8,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 5,
+    "played": "20240928"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "SaiPa",
+    "homeScore": 2,
+    "played": "20240928"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 1,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 4,
+    "played": "20240928"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 7,
+    "played": "20241001"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 0,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 2,
+    "played": "20241001"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 2,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 4,
+    "played": "20241001"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "HIFK",
+    "homeScore": 3,
+    "played": "20241002"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "HPK",
+    "homeScore": 3,
+    "played": "20241002"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 3,
+    "played": "20241002"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 1,
+    "played": "20241003"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 3,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 4,
+    "played": "20241004"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 4,
+    "played": "20241004"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 5,
+    "det": "OT",
+    "home": "JYP",
+    "homeScore": 4,
+    "played": "20241004"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 2,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 3,
+    "played": "20241004"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 0,
+    "played": "20241004"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "HIFK",
+    "homeScore": 3,
+    "played": "20241004"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 4,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 1,
+    "played": "20241005"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 1,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 2,
+    "played": "20241005"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 2,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 0,
+    "played": "20241005"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 4,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 2,
+    "played": "20241005"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 0,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 5,
+    "played": "20241005"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 4,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 2,
+    "played": "20241005"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 1,
+    "played": "20241006"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 1,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 2,
+    "played": "20241009"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "KooKoo",
+    "homeScore": 4,
+    "played": "20241009"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 5,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 2,
+    "played": "20241009"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 5,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 6,
+    "played": "20241009"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 3,
+    "played": "20241009"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 4,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 3,
+    "played": "20241011"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "Ilves",
+    "homeScore": 4,
+    "played": "20241011"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 4,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20241011"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 0,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 5,
+    "played": "20241011"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 2,
+    "played": "20241011"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "TPS",
+    "homeScore": 1,
+    "played": "20241011"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 3,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 5,
+    "played": "20241011"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 3,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 5,
+    "played": "20241012"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 0,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 4,
+    "played": "20241012"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 4,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 1,
+    "played": "20241012"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 2,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 1,
+    "played": "20241012"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 2,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 4,
+    "played": "20241012"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 3,
+    "played": "20241012"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 4,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 5,
+    "played": "20241012"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 2,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 3,
+    "played": "20241016"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 3,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 4,
+    "played": "20241016"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Jukurit",
+    "homeScore": 4,
+    "played": "20241016"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 5,
+    "played": "20241016"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20241016"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 0,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 2,
+    "played": "20241018"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 5,
+    "det": "SO",
+    "home": "Kärpät",
+    "homeScore": 4,
+    "played": "20241018"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 5,
+    "played": "20241018"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 0,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 4,
+    "played": "20241018"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 4,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 2,
+    "played": "20241018"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 5,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 1,
+    "played": "20241018"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "HPK",
+    "homeScore": 3,
+    "played": "20241019"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 1,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 4,
+    "played": "20241019"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 1,
+    "played": "20241019"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 6,
+    "det": "OT",
+    "home": "SaiPa",
+    "homeScore": 7,
+    "played": "20241019"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 3,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 5,
+    "played": "20241019"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "Ässät",
+    "homeScore": 5,
+    "played": "20241019"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 2,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 1,
+    "played": "20241021"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 4,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 1,
+    "played": "20241022"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 4,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 2,
+    "played": "20241022"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 4,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20241023"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 1,
+    "played": "20241023"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 6,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 3,
+    "played": "20241023"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 4,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 6,
+    "played": "20241023"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "Jukurit",
+    "homeScore": 3,
+    "played": "20241025"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 6,
+    "det": "OT",
+    "home": "JYP",
+    "homeScore": 5,
+    "played": "20241025"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 2,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 5,
+    "played": "20241025"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 3,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 2,
+    "played": "20241025"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 1,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 3,
+    "played": "20241025"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 3,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 5,
+    "played": "20241025"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20241025"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 0,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 2,
+    "played": "20241026"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "KalPa",
+    "homeScore": 3,
+    "played": "20241026"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 2,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 3,
+    "played": "20241026"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 1,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 4,
+    "played": "20241026"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "Pelicans",
+    "homeScore": 1,
+    "played": "20241026"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Sport",
+    "homeScore": 2,
+    "played": "20241026"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 1,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 3,
+    "played": "20241029"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 2,
+    "played": "20241029"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 1,
+    "played": "20241030"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 2,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 5,
+    "played": "20241030"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 3,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 5,
+    "played": "20241030"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20241030"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 4,
+    "played": "20241031"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "HIFK",
+    "homeScore": 2,
+    "played": "20241101"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 0,
+    "played": "20241101"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 1,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 2,
+    "played": "20241101"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 3,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 6,
+    "played": "20241101"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20241101"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 4,
+    "played": "20241101"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "TPS",
+    "homeScore": 3,
+    "played": "20241102"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20241102"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 1,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 4,
+    "played": "20241102"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 4,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 3,
+    "played": "20241102"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Kärpät",
+    "homeScore": 2,
+    "played": "20241102"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 1,
+    "played": "20241102"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 1,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 4,
+    "played": "20241102"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "Sport",
+    "homeScore": 3,
+    "played": "20241102"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 5,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 2,
+    "played": "20241113"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 3,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 7,
+    "played": "20241113"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 3,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 4,
+    "played": "20241113"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 3,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20241113"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 4,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 1,
+    "played": "20241114"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 2,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 0,
+    "played": "20241115"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 2,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 5,
+    "played": "20241115"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 1,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 2,
+    "played": "20241115"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 4,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 0,
+    "played": "20241115"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "TPS",
+    "homeScore": 3,
+    "played": "20241115"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 1,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 4,
+    "played": "20241115"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 0,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 7,
+    "played": "20241116"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 5,
+    "played": "20241116"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 2,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 7,
+    "played": "20241116"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 0,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 4,
+    "played": "20241116"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 1,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 4,
+    "played": "20241116"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 2,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 5,
+    "played": "20241116"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 0,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 3,
+    "played": "20241117"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 3,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 2,
+    "played": "20241120"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20241120"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "JYP",
+    "homeScore": 3,
+    "played": "20241120"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 3,
+    "played": "20241120"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 1,
+    "played": "20241120"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 1,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 3,
+    "played": "20241121"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "KooKoo",
+    "homeScore": 3,
+    "played": "20241122"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 3,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 4,
+    "played": "20241122"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "K-Espoo",
+    "homeScore": 3,
+    "played": "20241122"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 2,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 3,
+    "played": "20241123"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 3,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 0,
+    "played": "20241123"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 5,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 4,
+    "played": "20241123"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 5,
+    "det": "OT",
+    "home": "Kärpät",
+    "homeScore": 4,
+    "played": "20241123"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "Lukko",
+    "homeScore": 3,
+    "played": "20241123"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 5,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 4,
+    "played": "20241123"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 0,
+    "played": "20241123"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 3,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 1,
+    "played": "20241124"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 6,
+    "played": "20241125"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 2,
+    "played": "20241126"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "KalPa",
+    "homeScore": 3,
+    "played": "20241126"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 1,
+    "played": "20241126"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "HPK",
+    "homeScore": 3,
+    "played": "20241127"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 1,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 2,
+    "played": "20241127"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 4,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 2,
+    "played": "20241127"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 1,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 5,
+    "played": "20241127"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 4,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 2,
+    "played": "20241127"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "SaiPa",
+    "homeScore": 3,
+    "played": "20241128"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "HIFK",
+    "homeScore": 1,
+    "played": "20241128"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 2,
+    "played": "20241129"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 6,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 4,
+    "played": "20241129"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 4,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 6,
+    "played": "20241129"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 1,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 2,
+    "played": "20241129"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 5,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 4,
+    "played": "20241129"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 2,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 4,
+    "played": "20241130"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 0,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 3,
+    "played": "20241130"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 6,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 3,
+    "played": "20241130"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 0,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 5,
+    "played": "20241130"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 4,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 1,
+    "played": "20241130"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 3,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 1,
+    "played": "20241130"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 2,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 1,
+    "played": "20241130"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 7,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 1,
+    "played": "20241204"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "K-Espoo",
+    "homeScore": 4,
+    "played": "20241204"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 2,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 1,
+    "played": "20241205"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 5,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 1,
+    "played": "20241205"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20241205"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 4,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 5,
+    "played": "20241205"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "TPS",
+    "homeScore": 3,
+    "played": "20241205"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 3,
+    "played": "20241205"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 3,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 1,
+    "played": "20241207"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 3,
+    "det": "OT",
+    "home": "HPK",
+    "homeScore": 2,
+    "played": "20241207"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 4,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 1,
+    "played": "20241207"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 4,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 2,
+    "played": "20241207"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 4,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 1,
+    "played": "20241207"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 1,
+    "det": "OT",
+    "home": "Pelicans",
+    "homeScore": 2,
+    "played": "20241207"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 5,
+    "det": "OT",
+    "home": "Sport",
+    "homeScore": 4,
+    "played": "20241207"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 4,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 3,
+    "played": "20241207"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 1,
+    "det": "OT",
+    "home": "Ilves",
+    "homeScore": 2,
+    "played": "20241209"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "KooKoo",
+    "homeScore": 3,
+    "played": "20241210"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Tappara",
+    "homeScore": 2,
+    "played": "20241210"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 1,
+    "det": "",
+    "home": "HIFK",
+    "homeScore": 5,
+    "played": "20241211"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 2,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 6,
+    "played": "20241211"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 1,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 4,
+    "played": "20241211"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 3,
+    "played": "20241211"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "Lukko",
+    "homeScore": 3,
+    "played": "20241211"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "Tappara",
+    "homeScore": 4,
+    "played": "20241212"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 1,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 2,
+    "played": "20241213"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 1,
+    "played": "20241213"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 2,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 3,
+    "played": "20241213"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 2,
+    "played": "20241213"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 4,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 0,
+    "played": "20241213"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "HIFK",
+    "homeScore": 3,
+    "played": "20241214"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 1,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 4,
+    "played": "20241214"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "K-Espoo",
+    "homeScore": 2,
+    "played": "20241214"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 2,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 5,
+    "played": "20241214"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 3,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 2,
+    "played": "20241214"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 1,
+    "det": "",
+    "home": "SaiPa",
+    "homeScore": 6,
+    "played": "20241214"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 4,
+    "det": "",
+    "home": "Sport",
+    "homeScore": 6,
+    "played": "20241214"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 4,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 5,
+    "played": "20241214"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "HIFK",
+    "homeScore": 3,
+    "played": "20241218"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "KooKoo",
+    "homeScore": 5,
+    "played": "20241218"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "Kärpät",
+    "homeScore": 1,
+    "played": "20241218"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 5,
+    "played": "20241218"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 3,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 6,
+    "played": "20241218"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "TPS",
+    "homeScore": 3,
+    "played": "20241218"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 3,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 0,
+    "played": "20241218"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 1,
+    "det": "",
+    "home": "HPK",
+    "homeScore": 2,
+    "played": "20241220"
+  },
+  {
+    "away": "KooKoo",
+    "awayScore": 6,
+    "det": "OT",
+    "home": "JYP",
+    "homeScore": 5,
+    "played": "20241220"
+  },
+  {
+    "away": "Kärpät",
+    "awayScore": 5,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 0,
+    "played": "20241220"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "SaiPa",
+    "homeScore": 3,
+    "played": "20241220"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 2,
+    "det": "SO",
+    "home": "Sport",
+    "homeScore": 1,
+    "played": "20241220"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 4,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 3,
+    "played": "20241220"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 2,
+    "played": "20241220"
+  },
+  {
+    "away": "TPS",
+    "awayScore": 4,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 5,
+    "played": "20241221"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "KalPa",
+    "homeScore": 2,
+    "played": "20241221"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 4,
+    "det": "OT",
+    "home": "KooKoo",
+    "homeScore": 5,
+    "played": "20241221"
+  },
+  {
+    "away": "Sport",
+    "awayScore": 0,
+    "det": "",
+    "home": "Kärpät",
+    "homeScore": 4,
+    "played": "20241221"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 5,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 2,
+    "played": "20241221"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 0,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 1,
+    "played": "20241221"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 2,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 4,
+    "played": "20241221"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 3,
+    "det": "SO",
+    "home": "HIFK",
+    "homeScore": 4,
+    "played": "20241226"
+  },
+  {
+    "away": "Ässät",
+    "awayScore": 3,
+    "det": "",
+    "home": "K-Espoo",
+    "homeScore": 1,
+    "played": "20241226"
+  },
+  {
+    "away": "SaiPa",
+    "awayScore": 2,
+    "det": "",
+    "home": "KalPa",
+    "homeScore": 9,
+    "played": "20241227"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 4,
+    "det": "",
+    "home": "KooKoo",
+    "homeScore": 3,
+    "played": "20241227"
+  },
+  {
+    "away": "Ilves",
+    "awayScore": 3,
+    "det": "",
+    "home": "Lukko",
+    "homeScore": 5,
+    "played": "20241227"
+  },
+  {
+    "away": "JYP",
+    "awayScore": 2,
+    "det": "",
+    "home": "Tappara",
+    "homeScore": 3,
+    "played": "20241227"
+  },
+  {
+    "away": "KalPa",
+    "awayScore": 1,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 4,
+    "played": "20241228"
+  },
+  {
+    "away": "HIFK",
+    "awayScore": 2,
+    "det": "",
+    "home": "Jukurit",
+    "homeScore": 5,
+    "played": "20241228"
+  },
+  {
+    "away": "Lukko",
+    "awayScore": 5,
+    "det": "",
+    "home": "JYP",
+    "homeScore": 2,
+    "played": "20241228"
+  },
+  {
+    "away": "K-Espoo",
+    "awayScore": 4,
+    "det": "SO",
+    "home": "SaiPa",
+    "homeScore": 5,
+    "played": "20241228"
+  },
+  {
+    "away": "Pelicans",
+    "awayScore": 2,
+    "det": "OT",
+    "home": "Sport",
+    "homeScore": 3,
+    "played": "20241228"
+  },
+  {
+    "away": "HPK",
+    "awayScore": 2,
+    "det": "",
+    "home": "TPS",
+    "homeScore": 4,
+    "played": "20241228"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ässät",
+    "homeScore": 5,
+    "played": "20241228"
+  },
+  {
+    "away": "Jukurit",
+    "awayScore": 0,
+    "det": "",
+    "home": "Ilves",
+    "homeScore": 5,
+    "played": "20241230"
+  },
+  {
+    "away": "Tappara",
+    "awayScore": 1,
+    "det": "",
+    "home": "Pelicans",
+    "homeScore": 7,
+    "played": "20241230"
+  },
+  {
+    "away": "Ässät",
+    "home": "Ilves",
+    "played": "20250103"
+  },
+  {
+    "away": "TPS",
+    "home": "JYP",
+    "played": "20250103"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Lukko",
+    "played": "20250103"
+  },
+  {
+    "away": "HIFK",
+    "home": "Pelicans",
+    "played": "20250103"
+  },
+  {
+    "away": "KooKoo",
+    "home": "SaiPa",
+    "played": "20250103"
+  },
+  {
+    "away": "Tappara",
+    "home": "KalPa",
+    "played": "20250103"
+  },
+  {
+    "away": "Pelicans",
+    "home": "HIFK",
+    "played": "20250104"
+  },
+  {
+    "away": "Lukko",
+    "home": "HPK",
+    "played": "20250104"
+  },
+  {
+    "away": "JYP",
+    "home": "K-Espoo",
+    "played": "20250104"
+  },
+  {
+    "away": "SaiPa",
+    "home": "KooKoo",
+    "played": "20250104"
+  },
+  {
+    "away": "TPS",
+    "home": "Kärpät",
+    "played": "20250104"
+  },
+  {
+    "away": "Jukurit",
+    "home": "Sport",
+    "played": "20250104"
+  },
+  {
+    "away": "Ilves",
+    "home": "Ässät",
+    "played": "20250104"
+  },
+  {
+    "away": "KalPa",
+    "home": "Tappara",
+    "played": "20250104"
+  },
+  {
+    "away": "Ässät",
+    "home": "HPK",
+    "played": "20250108"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Ilves",
+    "played": "20250108"
+  },
+  {
+    "away": "Tappara",
+    "home": "JYP",
+    "played": "20250108"
+  },
+  {
+    "away": "Sport",
+    "home": "K-Espoo",
+    "played": "20250108"
+  },
+  {
+    "away": "Jukurit",
+    "home": "KalPa",
+    "played": "20250108"
+  },
+  {
+    "away": "Lukko",
+    "home": "Pelicans",
+    "played": "20250108"
+  },
+  {
+    "away": "HIFK",
+    "home": "SaiPa",
+    "played": "20250108"
+  },
+  {
+    "away": "KooKoo",
+    "home": "TPS",
+    "played": "20250108"
+  },
+  {
+    "away": "KalPa",
+    "home": "HIFK",
+    "played": "20250110"
+  },
+  {
+    "away": "JYP",
+    "home": "Jukurit",
+    "played": "20250110"
+  },
+  {
+    "away": "Pelicans",
+    "home": "SaiPa",
+    "played": "20250110"
+  },
+  {
+    "away": "Ilves",
+    "home": "Sport",
+    "played": "20250110"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Tappara",
+    "played": "20250110"
+  },
+  {
+    "away": "Kärpät",
+    "home": "KooKoo",
+    "played": "20250110"
+  },
+  {
+    "away": "JYP",
+    "home": "HPK",
+    "played": "20250111"
+  },
+  {
+    "away": "Sport",
+    "home": "Ilves",
+    "played": "20250111"
+  },
+  {
+    "away": "KooKoo",
+    "home": "K-Espoo",
+    "played": "20250111"
+  },
+  {
+    "away": "Ässät",
+    "home": "KalPa",
+    "played": "20250111"
+  },
+  {
+    "away": "Jukurit",
+    "home": "Lukko",
+    "played": "20250111"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Pelicans",
+    "played": "20250111"
+  },
+  {
+    "away": "HIFK",
+    "home": "TPS",
+    "played": "20250111"
+  },
+  {
+    "away": "Ässät",
+    "home": "Kärpät",
+    "played": "20250115"
+  },
+  {
+    "away": "Lukko",
+    "home": "SaiPa",
+    "played": "20250115"
+  },
+  {
+    "away": "KalPa",
+    "home": "TPS",
+    "played": "20250115"
+  },
+  {
+    "away": "TPS",
+    "home": "HPK",
+    "played": "20250117"
+  },
+  {
+    "away": "HIFK",
+    "home": "Ilves",
+    "played": "20250117"
+  },
+  {
+    "away": "KooKoo",
+    "home": "KalPa",
+    "played": "20250117"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Kärpät",
+    "played": "20250117"
+  },
+  {
+    "away": "Tappara",
+    "home": "Lukko",
+    "played": "20250117"
+  },
+  {
+    "away": "Sport",
+    "home": "SaiPa",
+    "played": "20250117"
+  },
+  {
+    "away": "Jukurit",
+    "home": "Ässät",
+    "played": "20250117"
+  },
+  {
+    "away": "JYP",
+    "home": "Pelicans",
+    "played": "20250117"
+  },
+  {
+    "away": "Pelicans",
+    "home": "TPS",
+    "played": "20250118"
+  },
+  {
+    "away": "Lukko",
+    "home": "Tappara",
+    "played": "20250118"
+  },
+  {
+    "away": "Ilves",
+    "home": "HIFK",
+    "played": "20250118"
+  },
+  {
+    "away": "SaiPa",
+    "home": "Jukurit",
+    "played": "20250118"
+  },
+  {
+    "away": "HPK",
+    "home": "K-Espoo",
+    "played": "20250118"
+  },
+  {
+    "away": "Sport",
+    "home": "KooKoo",
+    "played": "20250118"
+  },
+  {
+    "away": "Kärpät",
+    "home": "JYP",
+    "played": "20250118"
+  },
+  {
+    "away": "Ässät",
+    "home": "JYP",
+    "played": "20250122"
+  },
+  {
+    "away": "Lukko",
+    "home": "K-Espoo",
+    "played": "20250122"
+  },
+  {
+    "away": "HPK",
+    "home": "Kärpät",
+    "played": "20250122"
+  },
+  {
+    "away": "SaiPa",
+    "home": "Sport",
+    "played": "20250122"
+  },
+  {
+    "away": "HPK",
+    "home": "KalPa",
+    "played": "20250124"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Pelicans",
+    "played": "20250124"
+  },
+  {
+    "away": "Kärpät",
+    "home": "SaiPa",
+    "played": "20250124"
+  },
+  {
+    "away": "JYP",
+    "home": "Sport",
+    "played": "20250124"
+  },
+  {
+    "away": "Ilves",
+    "home": "Tappara",
+    "played": "20250124"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "TPS",
+    "played": "20250124"
+  },
+  {
+    "away": "Ässät",
+    "home": "Lukko",
+    "played": "20250124"
+  },
+  {
+    "away": "Tappara",
+    "home": "HPK",
+    "played": "20250125"
+  },
+  {
+    "away": "TPS",
+    "home": "Ilves",
+    "played": "20250125"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Jukurit",
+    "played": "20250125"
+  },
+  {
+    "away": "KalPa",
+    "home": "K-Espoo",
+    "played": "20250125"
+  },
+  {
+    "away": "Pelicans",
+    "home": "KooKoo",
+    "played": "20250125"
+  },
+  {
+    "away": "Lukko",
+    "home": "Ässät",
+    "played": "20250125"
+  },
+  {
+    "away": "HIFK",
+    "home": "JYP",
+    "played": "20250125"
+  },
+  {
+    "away": "JYP",
+    "home": "Ilves",
+    "played": "20250128"
+  },
+  {
+    "away": "Ässät",
+    "home": "HIFK",
+    "played": "20250129"
+  },
+  {
+    "away": "Lukko",
+    "home": "KooKoo",
+    "played": "20250129"
+  },
+  {
+    "away": "KalPa",
+    "home": "Pelicans",
+    "played": "20250129"
+  },
+  {
+    "away": "HPK",
+    "home": "Sport",
+    "played": "20250129"
+  },
+  {
+    "away": "Jukurit",
+    "home": "Tappara",
+    "played": "20250129"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Jukurit",
+    "played": "20250131"
+  },
+  {
+    "away": "KalPa",
+    "home": "JYP",
+    "played": "20250131"
+  },
+  {
+    "away": "HIFK",
+    "home": "Lukko",
+    "played": "20250131"
+  },
+  {
+    "away": "HPK",
+    "home": "Pelicans",
+    "played": "20250131"
+  },
+  {
+    "away": "TPS",
+    "home": "SaiPa",
+    "played": "20250131"
+  },
+  {
+    "away": "Sport",
+    "home": "Tappara",
+    "played": "20250131"
+  },
+  {
+    "away": "Ilves",
+    "home": "Kärpät",
+    "played": "20250131"
+  },
+  {
+    "away": "Tappara",
+    "home": "HIFK",
+    "played": "20250201"
+  },
+  {
+    "away": "Pelicans",
+    "home": "HPK",
+    "played": "20250201"
+  },
+  {
+    "away": "JYP",
+    "home": "KalPa",
+    "played": "20250201"
+  },
+  {
+    "away": "Jukurit",
+    "home": "KooKoo",
+    "played": "20250201"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Ilves",
+    "played": "20250201"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Sport",
+    "played": "20250201"
+  },
+  {
+    "away": "SaiPa",
+    "home": "Ässät",
+    "played": "20250201"
+  },
+  {
+    "away": "KalPa",
+    "home": "Sport",
+    "played": "20250211"
+  },
+  {
+    "away": "Lukko",
+    "home": "HIFK",
+    "played": "20250212"
+  },
+  {
+    "away": "HPK",
+    "home": "JYP",
+    "played": "20250212"
+  },
+  {
+    "away": "SaiPa",
+    "home": "K-Espoo",
+    "played": "20250212"
+  },
+  {
+    "away": "Pelicans",
+    "home": "Kärpät",
+    "played": "20250212"
+  },
+  {
+    "away": "KalPa",
+    "home": "Ässät",
+    "played": "20250212"
+  },
+  {
+    "away": "Jukurit",
+    "home": "HIFK",
+    "played": "20250214"
+  },
+  {
+    "away": "Ilves",
+    "home": "HPK",
+    "played": "20250214"
+  },
+  {
+    "away": "Pelicans",
+    "home": "JYP",
+    "played": "20250214"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Lukko",
+    "played": "20250214"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Sport",
+    "played": "20250214"
+  },
+  {
+    "away": "Ässät",
+    "home": "TPS",
+    "played": "20250214"
+  },
+  {
+    "away": "Ilves",
+    "home": "Jukurit",
+    "played": "20250215"
+  },
+  {
+    "away": "Sport",
+    "home": "KalPa",
+    "played": "20250215"
+  },
+  {
+    "away": "HIFK",
+    "home": "Kärpät",
+    "played": "20250215"
+  },
+  {
+    "away": "JYP",
+    "home": "SaiPa",
+    "played": "20250215"
+  },
+  {
+    "away": "TPS",
+    "home": "Ässät",
+    "played": "20250215"
+  },
+  {
+    "away": "HPK",
+    "home": "KooKoo",
+    "played": "20250215"
+  },
+  {
+    "away": "Tappara",
+    "home": "K-Espoo",
+    "played": "20250215"
+  },
+  {
+    "away": "Lukko",
+    "home": "Jukurit",
+    "played": "20250219"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Kärpät",
+    "played": "20250219"
+  },
+  {
+    "away": "Ilves",
+    "home": "Pelicans",
+    "played": "20250219"
+  },
+  {
+    "away": "HPK",
+    "home": "SaiPa",
+    "played": "20250219"
+  },
+  {
+    "away": "JYP",
+    "home": "TPS",
+    "played": "20250219"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Sport",
+    "played": "20250220"
+  },
+  {
+    "away": "JYP",
+    "home": "HPK",
+    "played": "20250221"
+  },
+  {
+    "away": "Tappara",
+    "home": "Ilves",
+    "played": "20250221"
+  },
+  {
+    "away": "Pelicans",
+    "home": "Jukurit",
+    "played": "20250221"
+  },
+  {
+    "away": "Kärpät",
+    "home": "KalPa",
+    "played": "20250221"
+  },
+  {
+    "away": "SaiPa",
+    "home": "Lukko",
+    "played": "20250221"
+  },
+  {
+    "away": "TPS",
+    "home": "HIFK",
+    "played": "20250221"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "HPK",
+    "played": "20250222"
+  },
+  {
+    "away": "Ilves",
+    "home": "JYP",
+    "played": "20250222"
+  },
+  {
+    "away": "Kärpät",
+    "home": "KalPa",
+    "played": "20250222"
+  },
+  {
+    "away": "HIFK",
+    "home": "KooKoo",
+    "played": "20250222"
+  },
+  {
+    "away": "Jukurit",
+    "home": "Pelicans",
+    "played": "20250222"
+  },
+  {
+    "away": "Lukko",
+    "home": "Sport",
+    "played": "20250222"
+  },
+  {
+    "away": "Ässät",
+    "home": "Tappara",
+    "played": "20250222"
+  },
+  {
+    "away": "SaiPa",
+    "home": "TPS",
+    "played": "20250222"
+  },
+  {
+    "away": "Sport",
+    "home": "Ässät",
+    "played": "20250223"
+  },
+  {
+    "away": "Lukko",
+    "home": "Ilves",
+    "played": "20250225"
+  },
+  {
+    "away": "SaiPa",
+    "home": "JYP",
+    "played": "20250225"
+  },
+  {
+    "away": "Pelicans",
+    "home": "K-Espoo",
+    "played": "20250226"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Tappara",
+    "played": "20250226"
+  },
+  {
+    "away": "Jukurit",
+    "home": "TPS",
+    "played": "20250226"
+  },
+  {
+    "away": "HIFK",
+    "home": "Ässät",
+    "played": "20250226"
+  },
+  {
+    "away": "HPK",
+    "home": "Ilves",
+    "played": "20250227"
+  },
+  {
+    "away": "KalPa",
+    "home": "SaiPa",
+    "played": "20250227"
+  },
+  {
+    "away": "JYP",
+    "home": "HIFK",
+    "played": "20250228"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Jukurit",
+    "played": "20250228"
+  },
+  {
+    "away": "Ässät",
+    "home": "KooKoo",
+    "played": "20250228"
+  },
+  {
+    "away": "Sport",
+    "home": "Pelicans",
+    "played": "20250228"
+  },
+  {
+    "away": "TPS",
+    "home": "Tappara",
+    "played": "20250228"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Lukko",
+    "played": "20250228"
+  },
+  {
+    "away": "Tappara",
+    "home": "TPS",
+    "played": "20250301"
+  },
+  {
+    "away": "Sport",
+    "home": "HPK",
+    "played": "20250301"
+  },
+  {
+    "away": "HIFK",
+    "home": "K-Espoo",
+    "played": "20250301"
+  },
+  {
+    "away": "Pelicans",
+    "home": "KalPa",
+    "played": "20250301"
+  },
+  {
+    "away": "Ilves",
+    "home": "SaiPa",
+    "played": "20250301"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Ässät",
+    "played": "20250301"
+  },
+  {
+    "away": "HPK",
+    "home": "Tappara",
+    "played": "20250304"
+  },
+  {
+    "away": "SaiPa",
+    "home": "HIFK",
+    "played": "20250305"
+  },
+  {
+    "away": "KalPa",
+    "home": "Ilves",
+    "played": "20250305"
+  },
+  {
+    "away": "Sport",
+    "home": "Jukurit",
+    "played": "20250305"
+  },
+  {
+    "away": "TPS",
+    "home": "K-Espoo",
+    "played": "20250305"
+  },
+  {
+    "away": "JYP",
+    "home": "Kärpät",
+    "played": "20250305"
+  },
+  {
+    "away": "Ässät",
+    "home": "Pelicans",
+    "played": "20250305"
+  },
+  {
+    "away": "HIFK",
+    "home": "HPK",
+    "played": "20250307"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "KalPa",
+    "played": "20250307"
+  },
+  {
+    "away": "JYP",
+    "home": "KooKoo",
+    "played": "20250307"
+  },
+  {
+    "away": "Jukurit",
+    "home": "SaiPa",
+    "played": "20250307"
+  },
+  {
+    "away": "TPS",
+    "home": "Sport",
+    "played": "20250307"
+  },
+  {
+    "away": "Lukko",
+    "home": "Ässät",
+    "played": "20250307"
+  },
+  {
+    "away": "Ilves",
+    "home": "Tappara",
+    "played": "20250307"
+  },
+  {
+    "away": "KooKoo",
+    "home": "Ilves",
+    "played": "20250308"
+  },
+  {
+    "away": "KalPa",
+    "home": "Jukurit",
+    "played": "20250308"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "JYP",
+    "played": "20250308"
+  },
+  {
+    "away": "Ässät",
+    "home": "Lukko",
+    "played": "20250308"
+  },
+  {
+    "away": "SaiPa",
+    "home": "Pelicans",
+    "played": "20250308"
+  },
+  {
+    "away": "Sport",
+    "home": "TPS",
+    "played": "20250308"
+  },
+  {
+    "away": "Tappara",
+    "home": "Kärpät",
+    "played": "20250308"
+  },
+  {
+    "away": "KooKoo",
+    "home": "HPK",
+    "played": "20250311"
+  },
+  {
+    "away": "Pelicans",
+    "home": "Ilves",
+    "played": "20250311"
+  },
+  {
+    "away": "Jukurit",
+    "home": "K-Espoo",
+    "played": "20250311"
+  },
+  {
+    "away": "TPS",
+    "home": "KalPa",
+    "played": "20250312"
+  },
+  {
+    "away": "JYP",
+    "home": "Lukko",
+    "played": "20250312"
+  },
+  {
+    "away": "Kärpät",
+    "home": "Tappara",
+    "played": "20250312"
+  },
+  {
+    "away": "Ässät",
+    "home": "Jukurit",
+    "played": "20250313"
+  },
+  {
+    "away": "SaiPa",
+    "home": "HPK",
+    "played": "20250314"
+  },
+  {
+    "away": "KalPa",
+    "home": "KooKoo",
+    "played": "20250314"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Sport",
+    "played": "20250314"
+  },
+  {
+    "away": "Pelicans",
+    "home": "Tappara",
+    "played": "20250314"
+  },
+  {
+    "away": "Lukko",
+    "home": "TPS",
+    "played": "20250314"
+  },
+  {
+    "away": "Kärpät",
+    "home": "HIFK",
+    "played": "20250314"
+  },
+  {
+    "away": "Tappara",
+    "home": "Jukurit",
+    "played": "20250315"
+  },
+  {
+    "away": "Sport",
+    "home": "JYP",
+    "played": "20250315"
+  },
+  {
+    "away": "Ilves",
+    "home": "KalPa",
+    "played": "20250315"
+  },
+  {
+    "away": "HIFK",
+    "home": "Kärpät",
+    "played": "20250315"
+  },
+  {
+    "away": "HPK",
+    "home": "Lukko",
+    "played": "20250315"
+  },
+  {
+    "away": "TPS",
+    "home": "Pelicans",
+    "played": "20250315"
+  },
+  {
+    "away": "KooKoo",
+    "home": "SaiPa",
+    "played": "20250315"
+  },
+  {
+    "away": "K-Espoo",
+    "home": "Ässät",
+    "played": "20250315"
+  }
+]

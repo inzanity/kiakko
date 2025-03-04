@@ -1,0 +1,8 @@
+header {
+	height: 64px;
+	display: block;
+	background: url("kiakko.png") no-repeat top left;
+	font-size: 32px;
+	padding-top: 10px;
+	padding-left: 64px;
+}
