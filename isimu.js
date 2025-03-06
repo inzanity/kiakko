@@ -2,14 +2,13 @@ let games = [];
 let basestd = {};
 let upcoming = [];
 let work = undefined;
-let kchanged = true;
 let splitschanged = true;
 let iterations = 0;
 let result = undefined;
 let otprob;
 let curr = 0;
 
-let worker = new Worker('isimuworker.js');
+let worker = new Worker('isimuworker.js?v2');
 
 function elem(type, attrs, ev) {
 	let elem = document.createElement(type);
@@ -43,12 +42,12 @@ function format(count, iterations, split) {
 
 worker.onmessage = (e) => {
 	let splits = document.getElementById('splits').value.split(/[^\d]+/).map(Number);
-	if (iterations == 0 || splitschanged) {
+	if (splitschanged) {
 		let row = document.getElementById('res-hdr');
-		row.replaceChildren();
-		row.appendChild(elem('th', { innerText: 'Joukkue' }));
-		row.appendChild(elem('th', { innerText: 'O' }));
-		row.appendChild(elem('th', { innerText: 'P' }));
+		row.replaceChildren(
+			elem('th', { innerText: 'Joukkue' }),
+			elem('th', { innerText: 'O' }),
+			elem('th', { innerText: 'P' }));
 		for (let i = 1; i <= Object.keys(basestd).length; i++) {
 			row.appendChild(elem('th', { innerText: i }));
 			if (splits.indexOf(i) != -1)
@@ -99,77 +98,64 @@ worker.onmessage = (e) => {
 		worker.postMessage({ id: curr, base: basestd, upcoming: work, otprob, iterations: 1000 });
 };
 
-fetch('games.json').then(r => r.json()).then(gms => {
-	document.getElementById('k').addEventListener('change', () => {
-		kchanged = true;
-		update();
-	});
-	document.getElementById('hadv').addEventListener('change', () => {
-		kchanged = true;
-		update();
-	});
-	document.getElementById('otp').addEventListener('change', update);
+document.addEventListener('DOMContentLoaded', () => {
+	for (const id of ['k', 'hadv'])
+		document.getElementById(id).addEventListener('change', () => update(true));
+	document.getElementById('otp').addEventListener('change', () => update(false));
+
 	document.getElementById('iters').addEventListener('change', () => {
 		if (iterations < document.getElementById('iters').value)
 			worker.postMessage({ id: curr, base: basestd, upcoming: work, otprob, iterations: 1000 });
 	});
+
 	document.getElementById('splits').addEventListener('change', () => {
 		splitschanged = true;
 		if (iterations !== 0)
 			worker.onmessage({ data: { curr, iterations: 0 } });
 	});
+});
+
+fetch('games.json').then(r => r.json()).then(gms => {
 	for (const g of gms) {
 		if (g.homeScore !== undefined)
 			games.push(g);
 		else
 			upcoming.push(g);
 	}
-	update();
+	update(true);
 });
 
-function update() {
+function update(kchanged) {
 	let k = document.getElementById('k').value;
 	let hadv = document.getElementById('hadv').value;
 	otprob = document.getElementById('otp').value / 100.0;
 	curr++;
 
-	let elo = {};
-
 	if (kchanged) {
-		basestd = {};
-		for (const g of games) {
-			let helo = elo[g.home] || 2000;
-			let aelo = elo[g.away] || 2000;
-			let ot = g.det !== "";
+		let elo = games.flatMap(g => [g.home, g.away]).concat(upcoming.flatMap(g => [g.home, g.away])).reduce((acc, team) => ({ ...acc, [team]: 2000 }), {});
+		basestd = Object.keys(elo).reduce((acc, team) => ({ ...acc, [team]: { games: 0, points: 0, wins: 0, gf: 0, ga: 0 } }), {});
+
+		for (const { home, away, det, homeScore, awayScore } of games) {
+			let ot = det !== "";
 			let ex =
-			    1.0 / (1.0 + Math.pow(10.0, (aelo - helo - hadv) / 400.0));
-			let p = g.homeScore > g.awayScore ? !ot ? 3 : 2 : ot ? 1 : 0;
+			    1.0 / (1.0 + Math.pow(10.0, (elo[away] - elo[home] - hadv) / 400.0));
+			let p = homeScore > awayScore ? !ot ? 3 : 2 : ot ? 1 : 0;
 			let w = p / 3.0;
 	
-			let hs = basestd[g.home] || {games : 0, points : 0, wins : 0, gf: 0, ga: 0 };
-			hs.games += 1;
-			hs.points += p;
-			hs.wins += p == 3;
-			hs.gf += g.homeScore;
-			hs.ga += g.awayScore;
-			basestd[g.home] = hs;
+			basestd[home].games += 1;
+			basestd[home].points += p;
+			basestd[home].wins += p == 3;
+			basestd[home].gf += homeScore;
+			basestd[home].ga += awayScore;
 	
-			let as = basestd[g.away] || {games : 0, points : 0, wins : 0, gf: 0, ga: 0 };
-			as.games += 1;
-			as.points += 3 - p;
-			as.wins += p == 0;
-			as.gf += g.awayScore;
-			as.ga += g.homeScore;
-			basestd[g.away] = as;
+			basestd[away].games += 1;
+			basestd[away].points += 3 - p;
+			basestd[away].wins += p == 0;
+			basestd[away].gf += awayScore;
+			basestd[away].ga += homeScore;
 	
-			elo[g.home] = helo + k * (w - ex);
-			elo[g.away] = aelo + k * (ex - w);
-		}
-		for (const g of upcoming) {
-			if (basestd[g.home] === undefined)
-				basestd[g.home] = { games: 0, points: 0, wins: 0, gf: 0, ga: 0 };
-			if (basestd[g.away] === undefined)
-				basestd[g.away] = { games: 0, points: 0, wins: 0, gf: 0, ga: 0 };
+			elo[home] += k * (w - ex);
+			elo[away] += k * (ex - w);
 		}
 	
 		let std = document.getElementById('standings');
@@ -196,19 +182,18 @@ function update() {
 				id: "elo" + name,
 				size: 5,
 				value: Math.round(elo[name])
-			}, { 'change': update }));
+			}, { 'change': () => update(false) }));
 		}
-
-		kchanged = false;
 	}
 
 	let elos = Object.keys(basestd).reduce((acc, name) => ({ ...acc, [name]: document.getElementById('elo' + name).value}), {});
 	work = upcoming.map(({ home, away }) => {
 		let ex =
 		    1.0 / (1.0 + Math.pow(10.0, (elos[away] - elos[home] - hadv) / 400.0));
-		return { home, away, ex }
+		let odds = [ ex * (1 - otprob), ex, ex * (1 + otprob) ];
+		return { home, away, odds }
 	});
 
 	iterations = 0;
-	worker.postMessage({ id: curr, base: basestd, upcoming: work, otprob, iterations: 1000 });
+	worker.postMessage({ id: curr, base: basestd, upcoming: work, iterations: 1000 });
 }

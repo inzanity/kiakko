@@ -1,35 +1,38 @@
 onmessage = (e) => {
-	const { base, upcoming, otprob, iterations, id } = e.data;
+	const { base, upcoming, iterations, id } = e.data;
 
 	let result = Object.keys(base).reduce((acc, team) => ({...acc, [team]: { points: 0, games: 0, positions: Object.keys(base).map(_ => 0) } }), {});
 
 	for (let i = 0; i < iterations; i++) {
 		let teams = Object.entries(base).reduce((acc, [team, data]) => ({ ...acc, [team]: {...data} }), {});
 
-		for (const { home, away, ex } of upcoming) {
+		for (const { home, away, odds } of upcoming) {
 			let r = Math.random();
 			let hp;
 
-			if (r < ex * otprob) {
-				hp = 2;
-			} else if (r < ex) {
+			if (r < odds[0]) {
 				hp = 3;
-			} else if (r < 1 - (ex * otprob)) {
-				hp = 0
+			} else if (r < odds[1]) {
+				hp = 2;
+			} else if (r < odds[2]) {
+				hp = 1
 			} else {
-				hp = 1;
+				hp = 0;
 			}
 
-			teams[home].games++;
-			teams[home].points += hp;
-			teams[home].wins += hp == 3;
+			let ht = teams[home];
+			ht.games++;
+			ht.points += hp;
+			ht.wins += hp == 3;
 
-			teams[away].games++;
-			teams[away].points += 3 - hp;
-			teams[away].wins += hp == 0;
+			let ha = teams[away];
+			ha.games++;
+			ha.points += 3 - hp;
+			ha.wins += hp == 0;
 		}
 
-		let std = Object.entries(teams).toSorted(([_a, a], [_b, b]) => {
+		let std = Object.entries(teams).map(([name, data]) => ({ name, ...data }));
+		std.sort((a, b) => {
 			 let d = (b.points * a.games) - (a.points * b.games);
 			 if (d)
 				 return d;
@@ -37,12 +40,13 @@ onmessage = (e) => {
 			 if (d)
 			 	return d;
 			 return Math.random() - 0.5;
-		}).map(([name, data]) => ({ name, ...data }));
+		});
 
 		for (const i in std) {
-			result[std[i].name].positions[i]++;
-			result[std[i].name].points += std[i].points;
-			result[std[i].name].games += std[i].games;
+			let t = result[std[i].name];
+			t.positions[i]++;
+			t.points += std[i].points;
+			t.games += std[i].games;
 		}
 	}
 
