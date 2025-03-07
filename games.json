@@ -1,2297 +1,2871 @@
 [
   {
     "away": "K-Espoo",
+    "awayExp": 2.6,
     "awayScore": 2,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.6,
     "homeScore": 5,
     "played": "20240910"
   },
   {
     "away": "HPK",
+    "awayExp": 1.62,
     "awayScore": 3,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 5.34,
     "homeScore": 7,
     "played": "20240910"
   },
   {
     "away": "Pelicans",
+    "awayExp": 3.34,
     "awayScore": 4,
     "det": "SO",
     "home": "JYP",
+    "homeExp": 3.71,
     "homeScore": 3,
     "played": "20240910"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.01,
     "awayScore": 2,
     "det": "",
     "home": "KalPa",
+    "homeExp": 3.02,
     "homeScore": 3,
     "played": "20240910"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.2,
     "awayScore": 4,
     "det": "OT",
     "home": "Lukko",
+    "homeExp": 3.76,
     "homeScore": 3,
     "played": "20240910"
   },
   {
     "away": "Kärpät",
+    "awayExp": 3.57,
     "awayScore": 3,
     "det": "OT",
     "home": "Sport",
+    "homeExp": 3.02,
     "homeScore": 2,
     "played": "20240910"
   },
   {
     "away": "TPS",
+    "awayExp": 2.78,
     "awayScore": 3,
     "det": "SO",
     "home": "Tappara",
+    "homeExp": 2.13,
     "homeScore": 2,
     "played": "20240910"
   },
   {
     "away": "Sport",
+    "awayExp": 3.41,
     "awayScore": 2,
     "det": "SO",
     "home": "HPK",
+    "homeExp": 1.96,
     "homeScore": 3,
     "played": "20240913"
   },
   {
     "away": "KalPa",
+    "awayExp": 4.04,
     "awayScore": 2,
     "det": "",
     "home": "JYP",
+    "homeExp": 2,
     "homeScore": 3,
     "played": "20240913"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2,
     "awayScore": 2,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.22,
     "homeScore": 1,
     "played": "20240913"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.19,
     "awayScore": 2,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 3.41,
     "homeScore": 3,
     "played": "20240913"
   },
   {
     "away": "TPS",
+    "awayExp": 3.74,
     "awayScore": 2,
     "det": "OT",
     "home": "Lukko",
+    "homeExp": 4.21,
     "homeScore": 3,
     "played": "20240913"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.38,
     "awayScore": 3,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.93,
     "homeScore": 2,
     "played": "20240913"
   },
   {
     "away": "KooKoo",
+    "awayExp": 4.26,
     "awayScore": 3,
     "det": "SO",
     "home": "SaiPa",
+    "homeExp": 2.9,
     "homeScore": 2,
     "played": "20240914"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.38,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 3.92,
     "homeScore": 4,
     "played": "20240914"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 1.99,
     "awayScore": 3,
     "det": "SO",
     "home": "TPS",
+    "homeExp": 3.58,
     "homeScore": 2,
     "played": "20240914"
   },
   {
     "away": "HPK",
+    "awayExp": 2.06,
     "awayScore": 0,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.61,
     "homeScore": 2,
     "played": "20240914"
   },
   {
     "away": "SaiPa",
+    "awayExp": 1.83,
     "awayScore": 0,
     "det": "",
     "home": "Tappara",
+    "homeExp": 3.45,
     "homeScore": 3,
     "played": "20240917"
   },
   {
     "away": "HPK",
+    "awayExp": 2.34,
     "awayScore": 2,
     "det": "",
     "home": "HIFK",
+    "homeExp": 3.81,
     "homeScore": 6,
     "played": "20240918"
   },
   {
     "away": "TPS",
+    "awayExp": 2.18,
     "awayScore": 2,
     "det": "",
     "home": "Ilves",
+    "homeExp": 1.89,
     "homeScore": 4,
     "played": "20240918"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 3.22,
     "awayScore": 6,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 3.85,
     "homeScore": 4,
     "played": "20240918"
   },
   {
     "away": "Sport",
+    "awayExp": 2.46,
     "awayScore": 3,
     "det": "SO",
     "home": "Lukko",
+    "homeExp": 4.99,
     "homeScore": 2,
     "played": "20240918"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.53,
     "awayScore": 5,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 2.93,
     "homeScore": 2,
     "played": "20240918"
   },
   {
     "away": "KalPa",
+    "awayExp": 3.42,
     "awayScore": 4,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.74,
     "homeScore": 3,
     "played": "20240919"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.12,
     "awayScore": 4,
     "det": "",
     "home": "HPK",
+    "homeExp": 1.44,
     "homeScore": 0,
     "played": "20240920"
   },
   {
     "away": "Lukko",
+    "awayExp": 2.63,
     "awayScore": 4,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 1.96,
     "homeScore": 0,
     "played": "20240920"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 1.91,
     "awayScore": 1,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 1.52,
     "homeScore": 4,
     "played": "20240920"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.68,
     "awayScore": 2,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.78,
     "homeScore": 3,
     "played": "20240920"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.24,
     "awayScore": 5,
     "det": "OT",
     "home": "Ässät",
+    "homeExp": 2.07,
     "homeScore": 4,
     "played": "20240920"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.49,
     "awayScore": 4,
     "det": "",
     "home": "Tappara",
+    "homeExp": 2.97,
     "homeScore": 1,
     "played": "20240920"
   },
   {
     "away": "SaiPa",
+    "awayExp": 3.76,
     "awayScore": 8,
     "det": "",
     "home": "HIFK",
+    "homeExp": 4.43,
     "homeScore": 4,
     "played": "20240921"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.03,
     "awayScore": 3,
     "det": "",
     "home": "Ilves",
+    "homeExp": 3.42,
     "homeScore": 6,
     "played": "20240921"
   },
   {
     "away": "Tappara",
+    "awayExp": 1.82,
     "awayScore": 4,
     "det": "",
     "home": "JYP",
+    "homeExp": 1.54,
     "homeScore": 2,
     "played": "20240921"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.84,
     "awayScore": 2,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.18,
     "homeScore": 3,
     "played": "20240921"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.83,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 3.04,
     "homeScore": 6,
     "played": "20240921"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.13,
     "awayScore": 4,
     "det": "SO",
     "home": "Sport",
+    "homeExp": 3.6,
     "homeScore": 3,
     "played": "20240921"
   },
   {
     "away": "TPS",
+    "awayExp": 1.98,
     "awayScore": 0,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.49,
     "homeScore": 5,
     "played": "20240921"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.5,
     "awayScore": 1,
     "det": "",
     "home": "Tappara",
+    "homeExp": 1.97,
     "homeScore": 3,
     "played": "20240924"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.48,
     "awayScore": 2,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.6,
     "homeScore": 5,
     "played": "20240925"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.31,
     "awayScore": 3,
     "det": "OT",
     "home": "Jukurit",
+    "homeExp": 4.7,
     "homeScore": 4,
     "played": "20240925"
   },
   {
     "away": "JYP",
+    "awayExp": 2.93,
     "awayScore": 2,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.24,
     "homeScore": 4,
     "played": "20240925"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.24,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 3.55,
     "homeScore": 3,
     "played": "20240925"
   },
   {
     "away": "HPK",
+    "awayExp": 2.54,
     "awayScore": 5,
     "det": "SO",
     "home": "TPS",
+    "homeExp": 3.24,
     "homeScore": 6,
     "played": "20240925"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 1.28,
     "awayScore": 2,
     "det": "",
     "home": "HPK",
+    "homeExp": 2.15,
     "homeScore": 5,
     "played": "20240927"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.72,
     "awayScore": 1,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.89,
     "homeScore": 2,
     "played": "20240927"
   },
   {
     "away": "Sport",
+    "awayExp": 1.93,
     "awayScore": 2,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.17,
     "homeScore": 3,
     "played": "20240927"
   },
   {
     "away": "HIFK",
+    "awayExp": 1.95,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 2.16,
     "homeScore": 2,
     "played": "20240927"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.11,
     "awayScore": 1,
     "det": "",
     "home": "Tappara",
+    "homeExp": 3.03,
     "homeScore": 4,
     "played": "20240927"
   },
   {
     "away": "TPS",
+    "awayExp": 1.59,
     "awayScore": 6,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.28,
     "homeScore": 4,
     "played": "20240927"
   },
   {
     "away": "Ilves",
+    "awayExp": 1.8,
     "awayScore": 4,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 1.53,
     "homeScore": 3,
     "played": "20240927"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.56,
     "awayScore": 5,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.17,
     "homeScore": 2,
     "played": "20240928"
   },
   {
     "away": "Lukko",
+    "awayExp": 2.54,
     "awayScore": 2,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.34,
     "homeScore": 3,
     "played": "20240928"
   },
   {
     "away": "KooKoo",
+    "awayExp": 3.98,
     "awayScore": 5,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 1.56,
     "homeScore": 2,
     "played": "20240928"
   },
   {
     "away": "HPK",
+    "awayExp": 2.55,
     "awayScore": 1,
     "det": "",
     "home": "JYP",
+    "homeExp": 2.15,
     "homeScore": 2,
     "played": "20240928"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.62,
     "awayScore": 2,
     "det": "SO",
     "home": "K-Espoo",
+    "homeExp": 2.36,
     "homeScore": 1,
     "played": "20240928"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.75,
     "awayScore": 8,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.54,
     "homeScore": 5,
     "played": "20240928"
   },
   {
     "away": "Sport",
+    "awayExp": 2.57,
     "awayScore": 3,
     "det": "SO",
     "home": "SaiPa",
+    "homeExp": 3.73,
     "homeScore": 2,
     "played": "20240928"
   },
   {
     "away": "Ässät",
+    "awayExp": 3.85,
     "awayScore": 1,
     "det": "",
     "home": "TPS",
+    "homeExp": 1.96,
     "homeScore": 4,
     "played": "20240928"
   },
   {
     "away": "Sport",
+    "awayExp": 2.76,
     "awayScore": 2,
     "det": "",
     "home": "Ilves",
+    "homeExp": 3.31,
     "homeScore": 7,
     "played": "20241001"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.22,
     "awayScore": 0,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.96,
     "homeScore": 2,
     "played": "20241001"
   },
   {
     "away": "JYP",
+    "awayExp": 1.39,
     "awayScore": 2,
     "det": "",
     "home": "Lukko",
+    "homeExp": 3.05,
     "homeScore": 4,
     "played": "20241001"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.71,
     "awayScore": 4,
     "det": "SO",
     "home": "HIFK",
+    "homeExp": 3.92,
     "homeScore": 3,
     "played": "20241002"
   },
   {
     "away": "Kärpät",
+    "awayExp": 3.62,
     "awayScore": 4,
     "det": "OT",
     "home": "HPK",
+    "homeExp": 2.31,
     "homeScore": 3,
     "played": "20241002"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.17,
     "awayScore": 0,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.07,
     "homeScore": 3,
     "played": "20241002"
   },
   {
     "away": "Lukko",
+    "awayExp": 2.53,
     "awayScore": 4,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 1.12,
     "homeScore": 1,
     "played": "20241003"
   },
   {
     "away": "KooKoo",
+    "awayExp": 3.18,
     "awayScore": 3,
     "det": "",
     "home": "HPK",
+    "homeExp": 1.24,
     "homeScore": 4,
     "played": "20241004"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.41,
     "awayScore": 1,
     "det": "",
     "home": "Ilves",
+    "homeExp": 1.71,
     "homeScore": 4,
     "played": "20241004"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 1.91,
     "awayScore": 5,
     "det": "OT",
     "home": "JYP",
+    "homeExp": 2.54,
     "homeScore": 4,
     "played": "20241004"
   },
   {
     "away": "Tappara",
+    "awayExp": 1.99,
     "awayScore": 2,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 2.66,
     "homeScore": 3,
     "played": "20241004"
   },
   {
     "away": "KalPa",
+    "awayExp": 3.81,
     "awayScore": 3,
     "det": "",
     "home": "Ässät",
+    "homeExp": 1.34,
     "homeScore": 0,
     "played": "20241004"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.35,
     "awayScore": 4,
     "det": "SO",
     "home": "HIFK",
+    "homeExp": 2.3,
     "homeScore": 3,
     "played": "20241004"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.33,
     "awayScore": 4,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 1.48,
     "homeScore": 1,
     "played": "20241005"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.11,
     "awayScore": 1,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 2.37,
     "homeScore": 2,
     "played": "20241005"
   },
   {
     "away": "HIFK",
+    "awayExp": 1.35,
     "awayScore": 2,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 1.81,
     "homeScore": 0,
     "played": "20241005"
   },
   {
     "away": "KalPa",
+    "awayExp": 3.52,
     "awayScore": 4,
     "det": "",
     "home": "Sport",
+    "homeExp": 5.02,
     "homeScore": 2,
     "played": "20241005"
   },
   {
     "away": "JYP",
+    "awayExp": 1.63,
     "awayScore": 0,
     "det": "",
     "home": "Tappara",
+    "homeExp": 4.13,
     "homeScore": 5,
     "played": "20241005"
   },
   {
     "away": "Kärpät",
+    "awayExp": 0.84,
     "awayScore": 4,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.48,
     "homeScore": 2,
     "played": "20241005"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.31,
     "awayScore": 2,
     "det": "",
     "home": "Ilves",
+    "homeExp": 1.84,
     "homeScore": 1,
     "played": "20241006"
   },
   {
     "away": "Jukurit",
+    "awayExp": 3.22,
     "awayScore": 1,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.48,
     "homeScore": 2,
     "played": "20241009"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.54,
     "awayScore": 3,
     "det": "SO",
     "home": "KooKoo",
+    "homeExp": 1.83,
     "homeScore": 4,
     "played": "20241009"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.74,
     "awayScore": 5,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 3.91,
     "homeScore": 2,
     "played": "20241009"
   },
   {
     "away": "TPS",
+    "awayExp": 4.68,
     "awayScore": 5,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 2.07,
     "homeScore": 6,
     "played": "20241009"
   },
   {
     "away": "JYP",
+    "awayExp": 0.97,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 2.77,
     "homeScore": 3,
     "played": "20241009"
   },
   {
     "away": "JYP",
+    "awayExp": 2.16,
     "awayScore": 4,
     "det": "",
     "home": "KalPa",
+    "homeExp": 1.84,
     "homeScore": 3,
     "played": "20241011"
   },
   {
     "away": "Kärpät",
+    "awayExp": 1.44,
     "awayScore": 3,
     "det": "OT",
     "home": "Ilves",
+    "homeExp": 3.21,
     "homeScore": 4,
     "played": "20241011"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.19,
     "awayScore": 4,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 2.59,
     "homeScore": 2,
     "played": "20241011"
   },
   {
     "away": "HPK",
+    "awayExp": 1.26,
     "awayScore": 0,
     "det": "",
     "home": "Lukko",
+    "homeExp": 4.46,
     "homeScore": 5,
     "played": "20241011"
   },
   {
     "away": "SaiPa",
+    "awayExp": 1.1,
     "awayScore": 3,
     "det": "",
     "home": "Sport",
+    "homeExp": 3.66,
     "homeScore": 2,
     "played": "20241011"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.35,
     "awayScore": 2,
     "det": "OT",
     "home": "TPS",
+    "homeExp": 3.39,
     "homeScore": 1,
     "played": "20241011"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.26,
     "awayScore": 3,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.6,
     "homeScore": 5,
     "played": "20241011"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.56,
     "awayScore": 3,
     "det": "",
     "home": "HPK",
+    "homeExp": 3.99,
     "homeScore": 5,
     "played": "20241012"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.37,
     "awayScore": 0,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.18,
     "homeScore": 4,
     "played": "20241012"
   },
   {
     "away": "Jukurit",
+    "awayExp": 0.98,
     "awayScore": 4,
     "det": "",
     "home": "JYP",
+    "homeExp": 3.6,
     "homeScore": 1,
     "played": "20241012"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 4.06,
     "awayScore": 2,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.97,
     "homeScore": 1,
     "played": "20241012"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.73,
     "awayScore": 2,
     "det": "",
     "home": "Tappara",
+    "homeExp": 2.2,
     "homeScore": 4,
     "played": "20241012"
   },
   {
     "away": "SaiPa",
+    "awayExp": 1.91,
     "awayScore": 1,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.6,
     "homeScore": 3,
     "played": "20241012"
   },
   {
     "away": "Sport",
+    "awayExp": 3.46,
     "awayScore": 4,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.8,
     "homeScore": 5,
     "played": "20241012"
   },
   {
     "away": "HPK",
+    "awayExp": 2.18,
     "awayScore": 2,
     "det": "",
     "home": "KalPa",
+    "homeExp": 3.3,
     "homeScore": 3,
     "played": "20241016"
   },
   {
     "away": "TPS",
+    "awayExp": 3.06,
     "awayScore": 3,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.19,
     "homeScore": 4,
     "played": "20241016"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.69,
     "awayScore": 3,
     "det": "SO",
     "home": "Jukurit",
+    "homeExp": 2.09,
     "homeScore": 4,
     "played": "20241016"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.16,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 3.31,
     "homeScore": 5,
     "played": "20241016"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.31,
     "awayScore": 3,
     "det": "OT",
     "home": "Ässät",
+    "homeExp": 3.18,
     "homeScore": 4,
     "played": "20241016"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.69,
     "awayScore": 0,
     "det": "",
     "home": "JYP",
+    "homeExp": 3,
     "homeScore": 2,
     "played": "20241018"
   },
   {
     "away": "KalPa",
+    "awayExp": 3.6,
     "awayScore": 5,
     "det": "SO",
     "home": "Kärpät",
+    "homeExp": 3.41,
     "homeScore": 4,
     "played": "20241018"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.83,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 2.32,
     "homeScore": 5,
     "played": "20241018"
   },
   {
     "away": "HPK",
+    "awayExp": 2.8,
     "awayScore": 0,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 3.23,
     "homeScore": 4,
     "played": "20241018"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.93,
     "awayScore": 4,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.69,
     "homeScore": 2,
     "played": "20241018"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.38,
     "awayScore": 5,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.27,
     "homeScore": 1,
     "played": "20241018"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.42,
     "awayScore": 4,
     "det": "SO",
     "home": "HPK",
+    "homeExp": 2.75,
     "homeScore": 3,
     "played": "20241019"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.99,
     "awayScore": 1,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.61,
     "homeScore": 4,
     "played": "20241019"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.12,
     "awayScore": 2,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 1.59,
     "homeScore": 1,
     "played": "20241019"
   },
   {
     "away": "JYP",
+    "awayExp": 2.47,
     "awayScore": 6,
     "det": "OT",
     "home": "SaiPa",
+    "homeExp": 4.42,
     "homeScore": 7,
     "played": "20241019"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.76,
     "awayScore": 3,
     "det": "",
     "home": "Tappara",
+    "homeExp": 4.5,
     "homeScore": 5,
     "played": "20241019"
   },
   {
     "away": "Sport",
+    "awayExp": 2.74,
     "awayScore": 4,
     "det": "OT",
     "home": "Ässät",
+    "homeExp": 4.38,
     "homeScore": 5,
     "played": "20241019"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 3.21,
     "awayScore": 2,
     "det": "",
     "home": "Tappara",
+    "homeExp": 2.95,
     "homeScore": 1,
     "played": "20241021"
   },
   {
     "away": "HPK",
+    "awayExp": 2.35,
     "awayScore": 4,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.68,
     "homeScore": 1,
     "played": "20241022"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.46,
     "awayScore": 4,
     "det": "",
     "home": "JYP",
+    "homeExp": 2.67,
     "homeScore": 2,
     "played": "20241022"
   },
   {
     "away": "TPS",
+    "awayExp": 2.4,
     "awayScore": 4,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 2.77,
     "homeScore": 2,
     "played": "20241023"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.41,
     "awayScore": 4,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.12,
     "homeScore": 1,
     "played": "20241023"
   },
   {
     "away": "SaiPa",
+    "awayExp": 3.57,
     "awayScore": 6,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 1.93,
     "homeScore": 3,
     "played": "20241023"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.39,
     "awayScore": 4,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 2.89,
     "homeScore": 6,
     "played": "20241023"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.1,
     "awayScore": 2,
     "det": "OT",
     "home": "Jukurit",
+    "homeExp": 3.73,
     "homeScore": 3,
     "played": "20241025"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.44,
     "awayScore": 6,
     "det": "OT",
     "home": "JYP",
+    "homeExp": 2.56,
     "homeScore": 5,
     "played": "20241025"
   },
   {
     "away": "HPK",
+    "awayExp": 2.05,
     "awayScore": 2,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.38,
     "homeScore": 5,
     "played": "20241025"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.62,
     "awayScore": 3,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 1.41,
     "homeScore": 2,
     "played": "20241025"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.95,
     "awayScore": 1,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 1.56,
     "homeScore": 3,
     "played": "20241025"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.14,
     "awayScore": 3,
     "det": "",
     "home": "TPS",
+    "homeExp": 1.43,
     "homeScore": 5,
     "played": "20241025"
   },
   {
     "away": "Lukko",
+    "awayExp": 1.77,
     "awayScore": 1,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.53,
     "homeScore": 4,
     "played": "20241025"
   },
   {
     "away": "TPS",
+    "awayExp": 1.17,
     "awayScore": 0,
     "det": "",
     "home": "HPK",
+    "homeExp": 2.07,
     "homeScore": 2,
     "played": "20241026"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.62,
     "awayScore": 4,
     "det": "OT",
     "home": "KalPa",
+    "homeExp": 3.33,
     "homeScore": 3,
     "played": "20241026"
   },
   {
     "away": "KooKoo",
+    "awayExp": 1.86,
     "awayScore": 2,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.94,
     "homeScore": 3,
     "played": "20241026"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.33,
     "awayScore": 1,
     "det": "",
     "home": "Lukko",
+    "homeExp": 2.56,
     "homeScore": 4,
     "played": "20241026"
   },
   {
     "away": "JYP",
+    "awayExp": 1.69,
     "awayScore": 2,
     "det": "SO",
     "home": "Pelicans",
+    "homeExp": 2.7,
     "homeScore": 1,
     "played": "20241026"
   },
   {
     "away": "Tappara",
+    "awayExp": 3.12,
     "awayScore": 3,
     "det": "SO",
     "home": "Sport",
+    "homeExp": 3.39,
     "homeScore": 2,
     "played": "20241026"
   },
   {
     "away": "Sport",
+    "awayExp": 2.24,
     "awayScore": 1,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.09,
     "homeScore": 3,
     "played": "20241029"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.35,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 2.99,
     "homeScore": 2,
     "played": "20241029"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.92,
     "awayScore": 4,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.44,
     "homeScore": 1,
     "played": "20241030"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.85,
     "awayScore": 2,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 2.39,
     "homeScore": 5,
     "played": "20241030"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.57,
     "awayScore": 3,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.88,
     "homeScore": 5,
     "played": "20241030"
   },
   {
     "away": "KooKoo",
+    "awayExp": 3.58,
     "awayScore": 1,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.4,
     "homeScore": 4,
     "played": "20241030"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.07,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 2.61,
     "homeScore": 4,
     "played": "20241031"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.5,
     "awayScore": 3,
     "det": "OT",
     "home": "HIFK",
+    "homeExp": 3.93,
     "homeScore": 2,
     "played": "20241101"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.27,
     "awayScore": 4,
     "det": "",
     "home": "HPK",
+    "homeExp": 2.07,
     "homeScore": 0,
     "played": "20241101"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.01,
     "awayScore": 1,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 1.98,
     "homeScore": 2,
     "played": "20241101"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.66,
     "awayScore": 3,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 3.03,
     "homeScore": 6,
     "played": "20241101"
   },
   {
     "away": "Tappara",
+    "awayExp": 1.99,
     "awayScore": 1,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.59,
     "homeScore": 4,
     "played": "20241101"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.57,
     "awayScore": 3,
     "det": "",
     "home": "JYP",
+    "homeExp": 1.59,
     "homeScore": 4,
     "played": "20241101"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.09,
     "awayScore": 4,
     "det": "SO",
     "home": "TPS",
+    "homeExp": 2.33,
     "homeScore": 3,
     "played": "20241102"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.92,
     "awayScore": 3,
     "det": "OT",
     "home": "Jukurit",
+    "homeExp": 2.07,
     "homeScore": 2,
     "played": "20241102"
   },
   {
     "away": "JYP",
+    "awayExp": 2.7,
     "awayScore": 1,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.91,
     "homeScore": 4,
     "played": "20241102"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.12,
     "awayScore": 4,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 2.14,
     "homeScore": 3,
     "played": "20241102"
   },
   {
     "away": "HIFK",
+    "awayExp": 1.77,
     "awayScore": 3,
     "det": "SO",
     "home": "Kärpät",
+    "homeExp": 2.31,
     "homeScore": 2,
     "played": "20241102"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.51,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 1.99,
     "homeScore": 1,
     "played": "20241102"
   },
   {
     "away": "Ässät",
+    "awayExp": 1.83,
     "awayScore": 1,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 3.9,
     "homeScore": 4,
     "played": "20241102"
   },
   {
     "away": "HPK",
+    "awayExp": 1.28,
     "awayScore": 2,
     "det": "OT",
     "home": "Sport",
+    "homeExp": 3.46,
     "homeScore": 3,
     "played": "20241102"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.35,
     "awayScore": 5,
     "det": "",
     "home": "JYP",
+    "homeExp": 2.19,
     "homeScore": 2,
     "played": "20241113"
   },
   {
     "away": "Sport",
+    "awayExp": 1.82,
     "awayScore": 3,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.73,
     "homeScore": 7,
     "played": "20241113"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.67,
     "awayScore": 3,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 2.86,
     "homeScore": 4,
     "played": "20241113"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.63,
     "awayScore": 3,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.9,
     "homeScore": 4,
     "played": "20241113"
   },
   {
     "away": "JYP",
+    "awayExp": 1.65,
     "awayScore": 4,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.14,
     "homeScore": 1,
     "played": "20241114"
   },
   {
     "away": "Kärpät",
+    "awayExp": 1.45,
     "awayScore": 2,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 2.18,
     "homeScore": 0,
     "played": "20241115"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.28,
     "awayScore": 2,
     "det": "",
     "home": "HPK",
+    "homeExp": 2.34,
     "homeScore": 5,
     "played": "20241115"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.27,
     "awayScore": 1,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 1.8,
     "homeScore": 2,
     "played": "20241115"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.43,
     "awayScore": 4,
     "det": "",
     "home": "Tappara",
+    "homeExp": 3.05,
     "homeScore": 0,
     "played": "20241115"
   },
   {
     "away": "Sport",
+    "awayExp": 2.53,
     "awayScore": 2,
     "det": "SO",
     "home": "TPS",
+    "homeExp": 3.8,
     "homeScore": 3,
     "played": "20241115"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.21,
     "awayScore": 1,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 2.8,
     "homeScore": 4,
     "played": "20241115"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.2,
     "awayScore": 0,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 4.16,
     "homeScore": 7,
     "played": "20241116"
   },
   {
     "away": "JYP",
+    "awayExp": 1.3,
     "awayScore": 2,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.46,
     "homeScore": 5,
     "played": "20241116"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.16,
     "awayScore": 2,
     "det": "",
     "home": "KalPa",
+    "homeExp": 3.83,
     "homeScore": 7,
     "played": "20241116"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.75,
     "awayScore": 0,
     "det": "",
     "home": "Lukko",
+    "homeExp": 4.15,
     "homeScore": 4,
     "played": "20241116"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.73,
     "awayScore": 1,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 2.88,
     "homeScore": 4,
     "played": "20241116"
   },
   {
     "away": "TPS",
+    "awayExp": 2.72,
     "awayScore": 2,
     "det": "",
     "home": "Sport",
+    "homeExp": 3.07,
     "homeScore": 5,
     "played": "20241116"
   },
   {
     "away": "HPK",
+    "awayExp": 2.11,
     "awayScore": 0,
     "det": "",
     "home": "Tappara",
+    "homeExp": 1.13,
     "homeScore": 3,
     "played": "20241117"
   },
   {
     "away": "Ässät",
+    "awayExp": 3.33,
     "awayScore": 3,
     "det": "",
     "home": "HPK",
+    "homeExp": 3.72,
     "homeScore": 2,
     "played": "20241120"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.1,
     "awayScore": 3,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 1.78,
     "homeScore": 2,
     "played": "20241120"
   },
   {
     "away": "Sport",
+    "awayExp": 2.89,
     "awayScore": 2,
     "det": "OT",
     "home": "JYP",
+    "homeExp": 2.16,
     "homeScore": 3,
     "played": "20241120"
   },
   {
     "away": "Lukko",
+    "awayExp": 2.1,
     "awayScore": 4,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.62,
     "homeScore": 3,
     "played": "20241120"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.1,
     "awayScore": 3,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.75,
     "homeScore": 1,
     "played": "20241120"
   },
   {
     "away": "Ässät",
+    "awayExp": 1.95,
     "awayScore": 1,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.73,
     "homeScore": 3,
     "played": "20241121"
   },
   {
     "away": "TPS",
+    "awayExp": 1.98,
     "awayScore": 2,
     "det": "OT",
     "home": "KooKoo",
+    "homeExp": 1.87,
     "homeScore": 3,
     "played": "20241122"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.99,
     "awayScore": 3,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 3.06,
     "homeScore": 4,
     "played": "20241122"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.29,
     "awayScore": 2,
     "det": "OT",
     "home": "K-Espoo",
+    "homeExp": 1.85,
     "homeScore": 3,
     "played": "20241122"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.23,
     "awayScore": 2,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 2.15,
     "homeScore": 3,
     "played": "20241123"
   },
   {
     "away": "TPS",
+    "awayExp": 2.54,
     "awayScore": 3,
     "det": "",
     "home": "JYP",
+    "homeExp": 1.83,
     "homeScore": 0,
     "played": "20241123"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.24,
     "awayScore": 5,
     "det": "",
     "home": "KalPa",
+    "homeExp": 4.97,
     "homeScore": 4,
     "played": "20241123"
   },
   {
     "away": "HPK",
+    "awayExp": 2.41,
     "awayScore": 5,
     "det": "OT",
     "home": "Kärpät",
+    "homeExp": 1.93,
     "homeScore": 4,
     "played": "20241123"
   },
   {
     "away": "Tappara",
+    "awayExp": 1.66,
     "awayScore": 4,
     "det": "OT",
     "home": "Lukko",
+    "homeExp": 2.85,
     "homeScore": 3,
     "played": "20241123"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.86,
     "awayScore": 5,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 4.03,
     "homeScore": 4,
     "played": "20241123"
   },
   {
     "away": "HIFK",
+    "awayExp": 1.97,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 1.95,
     "homeScore": 0,
     "played": "20241123"
   },
   {
     "away": "Pelicans",
+    "awayExp": 3.02,
     "awayScore": 3,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.03,
     "homeScore": 1,
     "played": "20241124"
   },
   {
     "away": "Sport",
+    "awayExp": 2.03,
     "awayScore": 2,
     "det": "",
     "home": "Tappara",
+    "homeExp": 3.14,
     "homeScore": 6,
     "played": "20241125"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.91,
     "awayScore": 0,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.5,
     "homeScore": 2,
     "played": "20241126"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.78,
     "awayScore": 2,
     "det": "OT",
     "home": "KalPa",
+    "homeExp": 3.01,
     "homeScore": 3,
     "played": "20241126"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.92,
     "awayScore": 2,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.79,
     "homeScore": 1,
     "played": "20241126"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.68,
     "awayScore": 4,
     "det": "OT",
     "home": "HPK",
+    "homeExp": 2.65,
     "homeScore": 3,
     "played": "20241127"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.39,
     "awayScore": 1,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.92,
     "homeScore": 2,
     "played": "20241127"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.07,
     "awayScore": 4,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 3.05,
     "homeScore": 2,
     "played": "20241127"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.82,
     "awayScore": 1,
     "det": "",
     "home": "Sport",
+    "homeExp": 2.1,
     "homeScore": 5,
     "played": "20241127"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.02,
     "awayScore": 4,
     "det": "",
     "home": "Tappara",
+    "homeExp": 3.6,
     "homeScore": 2,
     "played": "20241127"
   },
   {
     "away": "HPK",
+    "awayExp": 2.49,
     "awayScore": 2,
     "det": "OT",
     "home": "SaiPa",
+    "homeExp": 3.51,
     "homeScore": 3,
     "played": "20241128"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.87,
     "awayScore": 2,
     "det": "OT",
     "home": "HIFK",
+    "homeExp": 2.93,
     "homeScore": 1,
     "played": "20241128"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.67,
     "awayScore": 4,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.71,
     "homeScore": 2,
     "played": "20241129"
   },
   {
     "away": "Sport",
+    "awayExp": 2.62,
     "awayScore": 6,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 1.53,
     "homeScore": 4,
     "played": "20241129"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.67,
     "awayScore": 4,
     "det": "",
     "home": "JYP",
+    "homeExp": 3.54,
     "homeScore": 6,
     "played": "20241129"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.65,
     "awayScore": 1,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.44,
     "homeScore": 2,
     "played": "20241129"
   },
   {
     "away": "TPS",
+    "awayExp": 2.33,
     "awayScore": 5,
     "det": "",
     "home": "Lukko",
+    "homeExp": 2.91,
     "homeScore": 4,
     "played": "20241129"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.45,
     "awayScore": 2,
     "det": "",
     "home": "HIFK",
+    "homeExp": 3.11,
     "homeScore": 4,
     "played": "20241130"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.75,
     "awayScore": 0,
     "det": "",
     "home": "HPK",
+    "homeExp": 3.27,
     "homeScore": 3,
     "played": "20241130"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.51,
     "awayScore": 6,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.9,
     "homeScore": 3,
     "played": "20241130"
   },
   {
     "away": "JYP",
+    "awayExp": 1.94,
     "awayScore": 0,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.78,
     "homeScore": 5,
     "played": "20241130"
   },
   {
     "away": "Ässät",
+    "awayExp": 3.02,
     "awayScore": 4,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 1.95,
     "homeScore": 1,
     "played": "20241130"
   },
   {
     "away": "Sport",
+    "awayExp": 1.96,
     "awayScore": 3,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 3.54,
     "homeScore": 1,
     "played": "20241130"
   },
   {
     "away": "Lukko",
+    "awayExp": 1.72,
     "awayScore": 2,
     "det": "",
     "home": "TPS",
+    "homeExp": 1.91,
     "homeScore": 1,
     "played": "20241130"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.55,
     "awayScore": 7,
     "det": "",
     "home": "HIFK",
+    "homeExp": 0.88,
     "homeScore": 1,
     "played": "20241204"
   },
   {
     "away": "KooKoo",
+    "awayExp": 3.23,
     "awayScore": 3,
     "det": "SO",
     "home": "K-Espoo",
+    "homeExp": 3.27,
     "homeScore": 4,
     "played": "20241204"
   },
   {
     "away": "Ilves",
+    "awayExp": 4.57,
     "awayScore": 2,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.15,
     "homeScore": 1,
     "played": "20241205"
   },
   {
     "away": "SaiPa",
+    "awayExp": 4.33,
     "awayScore": 5,
     "det": "",
     "home": "HPK",
+    "homeExp": 1.77,
     "homeScore": 1,
     "played": "20241205"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.59,
     "awayScore": 4,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 3.07,
     "homeScore": 2,
     "played": "20241205"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.77,
     "awayScore": 4,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.96,
     "homeScore": 5,
     "played": "20241205"
   },
   {
     "away": "Sport",
+    "awayExp": 3.79,
     "awayScore": 4,
     "det": "SO",
     "home": "TPS",
+    "homeExp": 3.66,
     "homeScore": 3,
     "played": "20241205"
   },
   {
     "away": "JYP",
+    "awayExp": 1.28,
     "awayScore": 1,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.22,
     "homeScore": 3,
     "played": "20241205"
   },
   {
     "away": "JYP",
+    "awayExp": 2.18,
     "awayScore": 3,
     "det": "",
     "home": "HIFK",
+    "homeExp": 2.94,
     "homeScore": 1,
     "played": "20241207"
   },
   {
     "away": "Tappara",
+    "awayExp": 3.47,
     "awayScore": 3,
     "det": "OT",
     "home": "HPK",
+    "homeExp": 5.39,
     "homeScore": 2,
     "played": "20241207"
   },
   {
     "away": "SaiPa",
+    "awayExp": 3.39,
     "awayScore": 4,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.01,
     "homeScore": 1,
     "played": "20241207"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.77,
     "awayScore": 4,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.54,
     "homeScore": 2,
     "played": "20241207"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 3.66,
     "awayScore": 4,
     "det": "",
     "home": "Lukko",
+    "homeExp": 3.4,
     "homeScore": 1,
     "played": "20241207"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.73,
     "awayScore": 1,
     "det": "OT",
     "home": "Pelicans",
+    "homeExp": 1.96,
     "homeScore": 2,
     "played": "20241207"
   },
   {
     "away": "TPS",
+    "awayExp": 4.55,
     "awayScore": 5,
     "det": "OT",
     "home": "Sport",
+    "homeExp": 3.33,
     "homeScore": 4,
     "played": "20241207"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.91,
     "awayScore": 4,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.01,
     "homeScore": 3,
     "played": "20241207"
   },
   {
     "away": "SaiPa",
+    "awayExp": 4.55,
     "awayScore": 1,
     "det": "OT",
     "home": "Ilves",
+    "homeExp": 2.04,
     "homeScore": 2,
     "played": "20241209"
   },
   {
     "away": "HPK",
+    "awayExp": 3.38,
     "awayScore": 4,
     "det": "SO",
     "home": "KooKoo",
+    "homeExp": 3.86,
     "homeScore": 3,
     "played": "20241210"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.26,
     "awayScore": 3,
     "det": "SO",
     "home": "Tappara",
+    "homeExp": 4,
     "homeScore": 2,
     "played": "20241210"
   },
   {
     "away": "KooKoo",
+    "awayExp": 2.32,
     "awayScore": 1,
     "det": "",
     "home": "HIFK",
+    "homeExp": 4.21,
     "homeScore": 5,
     "played": "20241211"
   },
   {
     "away": "Ilves",
+    "awayExp": 1.83,
     "awayScore": 2,
     "det": "",
     "home": "JYP",
+    "homeExp": 3.13,
     "homeScore": 6,
     "played": "20241211"
   },
   {
     "away": "TPS",
+    "awayExp": 2.27,
     "awayScore": 1,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 2.04,
     "homeScore": 4,
     "played": "20241211"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.71,
     "awayScore": 2,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 1.67,
     "homeScore": 3,
     "played": "20241211"
   },
   {
     "away": "Sport",
+    "awayExp": 1.58,
     "awayScore": 2,
     "det": "OT",
     "home": "Lukko",
+    "homeExp": 3.45,
     "homeScore": 3,
     "played": "20241211"
   },
   {
     "away": "HIFK",
+    "awayExp": 3.13,
     "awayScore": 3,
     "det": "SO",
     "home": "Tappara",
+    "homeExp": 3.94,
     "homeScore": 4,
     "played": "20241212"
   },
   {
     "away": "JYP",
+    "awayExp": 1.47,
     "awayScore": 1,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 2.36,
     "homeScore": 2,
     "played": "20241213"
   },
   {
     "away": "Lukko",
+    "awayExp": 2.09,
     "awayScore": 4,
     "det": "",
     "home": "KalPa",
+    "homeExp": 2.9,
     "homeScore": 1,
     "played": "20241213"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.86,
     "awayScore": 2,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.96,
     "homeScore": 3,
     "played": "20241213"
   },
   {
     "away": "Pelicans",
+    "awayExp": 1.11,
     "awayScore": 0,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.91,
     "homeScore": 2,
     "played": "20241213"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.39,
     "awayScore": 4,
     "det": "",
     "home": "HPK",
+    "homeExp": 2.23,
     "homeScore": 0,
     "played": "20241213"
   },
   {
     "away": "KalPa",
+    "awayExp": 3.76,
     "awayScore": 4,
     "det": "OT",
     "home": "HIFK",
+    "homeExp": 2.99,
     "homeScore": 3,
     "played": "20241214"
   },
   {
     "away": "Jukurit",
+    "awayExp": 2.49,
     "awayScore": 1,
     "det": "",
     "home": "JYP",
+    "homeExp": 2.75,
     "homeScore": 4,
     "played": "20241214"
   },
   {
     "away": "Ilves",
+    "awayExp": 3.11,
     "awayScore": 3,
     "det": "SO",
     "home": "K-Espoo",
+    "homeExp": 2.7,
     "homeScore": 2,
     "played": "20241214"
   },
   {
     "away": "TPS",
+    "awayExp": 3.16,
     "awayScore": 2,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3.72,
     "homeScore": 5,
     "played": "20241214"
   },
   {
     "away": "HPK",
+    "awayExp": 2.21,
     "awayScore": 3,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 2.87,
     "homeScore": 2,
     "played": "20241214"
   },
   {
     "away": "Ässät",
+    "awayExp": 2.12,
     "awayScore": 1,
     "det": "",
     "home": "SaiPa",
+    "homeExp": 2.84,
     "homeScore": 6,
     "played": "20241214"
   },
   {
     "away": "Tappara",
+    "awayExp": 3.68,
     "awayScore": 4,
     "det": "",
     "home": "Sport",
+    "homeExp": 2.92,
     "homeScore": 6,
     "played": "20241214"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.3,
     "awayScore": 4,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 1.67,
     "homeScore": 5,
     "played": "20241214"
   },
   {
     "away": "Sport",
+    "awayExp": 4.3,
     "awayScore": 2,
     "det": "SO",
     "home": "HIFK",
+    "homeExp": 1.9,
     "homeScore": 3,
     "played": "20241218"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 2.79,
     "awayScore": 4,
     "det": "OT",
     "home": "KooKoo",
+    "homeExp": 2.39,
     "homeScore": 5,
     "played": "20241218"
   },
   {
     "away": "Jukurit",
+    "awayExp": 3.06,
     "awayScore": 2,
     "det": "OT",
     "home": "Kärpät",
+    "homeExp": 2.02,
     "homeScore": 1,
     "played": "20241218"
   },
   {
     "away": "KalPa",
+    "awayExp": 4.29,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 2.94,
     "homeScore": 5,
     "played": "20241218"
   },
   {
     "away": "SaiPa",
+    "awayExp": 3.32,
     "awayScore": 3,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 4.02,
     "homeScore": 6,
     "played": "20241218"
   },
   {
     "away": "JYP",
+    "awayExp": 0.94,
     "awayScore": 2,
     "det": "OT",
     "home": "TPS",
+    "homeExp": 2.73,
     "homeScore": 3,
     "played": "20241218"
   },
   {
     "away": "HPK",
+    "awayExp": 1.41,
     "awayScore": 3,
     "det": "",
     "home": "Ässät",
+    "homeExp": 2.35,
     "homeScore": 0,
     "played": "20241218"
   },
   {
     "away": "KalPa",
+    "awayExp": 1.84,
     "awayScore": 1,
     "det": "",
     "home": "HPK",
+    "homeExp": 1.91,
     "homeScore": 2,
     "played": "20241220"
   },
   {
     "away": "KooKoo",
+    "awayExp": 3.53,
     "awayScore": 6,
     "det": "OT",
     "home": "JYP",
+    "homeExp": 2.39,
     "homeScore": 5,
     "played": "20241220"
   },
   {
     "away": "Kärpät",
+    "awayExp": 2.22,
     "awayScore": 5,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 1.68,
     "homeScore": 0,
     "played": "20241220"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.24,
     "awayScore": 2,
     "det": "SO",
     "home": "SaiPa",
+    "homeExp": 3.25,
     "homeScore": 3,
     "played": "20241220"
   },
   {
     "away": "Ässät",
+    "awayExp": 1.92,
     "awayScore": 2,
     "det": "SO",
     "home": "Sport",
+    "homeExp": 2.18,
     "homeScore": 1,
     "played": "20241220"
   },
   {
     "away": "TPS",
+    "awayExp": 3.46,
     "awayScore": 4,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 2.39,
     "homeScore": 3,
     "played": "20241220"
   },
   {
     "away": "HIFK",
+    "awayExp": 1.7,
     "awayScore": 0,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.69,
     "homeScore": 2,
     "played": "20241220"
   },
   {
     "away": "TPS",
+    "awayExp": 2.22,
     "awayScore": 4,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 2.99,
     "homeScore": 5,
     "played": "20241221"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 3.89,
     "awayScore": 3,
     "det": "SO",
     "home": "KalPa",
+    "homeExp": 4.25,
     "homeScore": 2,
     "played": "20241221"
   },
   {
     "away": "Ilves",
+    "awayExp": 2.23,
     "awayScore": 4,
     "det": "OT",
     "home": "KooKoo",
+    "homeExp": 3.99,
     "homeScore": 5,
     "played": "20241221"
   },
   {
     "away": "Sport",
+    "awayExp": 1.6,
     "awayScore": 0,
     "det": "",
     "home": "Kärpät",
+    "homeExp": 2.69,
     "homeScore": 4,
     "played": "20241221"
   },
   {
     "away": "Pelicans",
+    "awayExp": 3.25,
     "awayScore": 5,
     "det": "",
     "home": "Lukko",
+    "homeExp": 4.33,
     "homeScore": 2,
     "played": "20241221"
   },
   {
     "away": "SaiPa",
+    "awayExp": 2.41,
     "awayScore": 0,
     "det": "",
     "home": "Tappara",
+    "homeExp": 1.72,
     "homeScore": 1,
     "played": "20241221"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.58,
     "awayScore": 2,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.76,
     "homeScore": 4,
     "played": "20241221"
   },
   {
     "away": "HPK",
+    "awayExp": 3.26,
     "awayScore": 3,
     "det": "SO",
     "home": "HIFK",
+    "homeExp": 2.15,
     "homeScore": 4,
     "played": "20241226"
   },
   {
     "away": "Ässät",
+    "awayExp": 3.25,
     "awayScore": 3,
     "det": "",
     "home": "K-Espoo",
+    "homeExp": 1.99,
     "homeScore": 1,
     "played": "20241226"
   },
   {
     "away": "SaiPa",
+    "awayExp": 1.57,
     "awayScore": 2,
     "det": "",
     "home": "KalPa",
+    "homeExp": 5.6,
     "homeScore": 9,
     "played": "20241227"
   },
   {
     "away": "Jukurit",
+    "awayExp": 1.56,
     "awayScore": 4,
     "det": "",
     "home": "KooKoo",
+    "homeExp": 3,
     "homeScore": 3,
     "played": "20241227"
   },
   {
     "away": "Ilves",
+    "awayExp": 1.62,
     "awayScore": 3,
     "det": "",
     "home": "Lukko",
+    "homeExp": 3.83,
     "homeScore": 5,
     "played": "20241227"
   },
   {
     "away": "JYP",
+    "awayExp": 1.26,
     "awayScore": 2,
     "det": "",
     "home": "Tappara",
+    "homeExp": 2.46,
     "homeScore": 3,
     "played": "20241227"
   },
   {
     "away": "KalPa",
+    "awayExp": 2.82,
     "awayScore": 1,
     "det": "",
     "home": "Ilves",
+    "homeExp": 2.64,
     "homeScore": 4,
     "played": "20241228"
   },
   {
     "away": "HIFK",
+    "awayExp": 2.56,
     "awayScore": 2,
     "det": "",
     "home": "Jukurit",
+    "homeExp": 3.57,
     "homeScore": 5,
     "played": "20241228"
   },
   {
     "away": "Lukko",
+    "awayExp": 3.36,
     "awayScore": 5,
     "det": "",
     "home": "JYP",
+    "homeExp": 1.91,
     "homeScore": 2,
     "played": "20241228"
   },
   {
     "away": "K-Espoo",
+    "awayExp": 3.23,
     "awayScore": 4,
     "det": "SO",
     "home": "SaiPa",
+    "homeExp": 3.03,
     "homeScore": 5,
     "played": "20241228"
   },
   {
     "away": "Pelicans",
+    "awayExp": 2.16,
     "awayScore": 2,
     "det": "OT",
     "home": "Sport",
+    "homeExp": 3.07,
     "homeScore": 3,
     "played": "20241228"
   },
   {
     "away": "HPK",
+    "awayExp": 2.59,
     "awayScore": 2,
     "det": "",
     "home": "TPS",
+    "homeExp": 2.35,
     "homeScore": 4,
     "played": "20241228"
   },
   {
     "away": "Tappara",
+    "awayExp": 1.73,
     "awayScore": 0,
     "det": "",
     "home": "Ässät",
+    "homeExp": 3.44,
     "homeScore": 5,
     "played": "20241228"
   },
   {
     "away": "Jukurit",
+    "awayExp": 0.83,
     "awayScore": 0,
     "det": "",
     "home": "Ilves",
+    "homeExp": 3.61,
     "homeScore": 5,
     "played": "20241230"
   },
   {
     "away": "Tappara",
+    "awayExp": 2.37,
     "awayScore": 1,
     "det": "",
     "home": "Pelicans",
+    "homeExp": 3.9,
     "homeScore": 7,
     "played": "20241230"
   },

@@ -6,10 +6,11 @@
 	</head>
 	<body>
 		<h1>Nykyinen sarjataulukko</h1>
-		<table id="fullstandings">
+		<table>
 		<thead>
-		 <tr><th>[]</th><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>Tulevat</th></tr>
-		<tbody>
+			<tr><th>[]</th><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>xTM</th><th>xPM</th><th>Tulevat</th></tr>
+		</thead>
+		<tbody id="fullstandings">
 		</tbody>
 		</table>
 		<label for="last">Puntari: <input type="text" value="0" id="last"/></label>
@@ -17,11 +18,12 @@
 		<label for="reverse"><input type="checkbox" id="reverse" />vs muut</label>
 		<label for="home"><input type="checkbox" id="home" checked="checked" />Koti</label>
 		<label for="away"><input type="checkbox" id="away" checked="checked" />Vieras</label>
+		<label for="expected"><input type="checkbox" id="expected" />Odottama</label>
 
 		<h1>Laskettu sarjataulukko</h1>
 		<table>
 		 <thead>
-		  <tr><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th></tr>
+			 <tr><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>xTM</th><th>xPM</th></tr>
 		 </thead>
 		 <tbody id="standings">
 		 </tbody>

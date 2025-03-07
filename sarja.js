@@ -26,14 +26,36 @@ function newcheck(id) {
 	});
 }
 
-function buildstand(teams) {
+function buildstand(teams, expected) {
 	return Object.entries(teams).map(([name, { games }]) => ({
 		name,
 		games: Object.keys(games).length,
 		gf: Object.values(games).reduce((acc, { gFor }) => acc + gFor, 0, 0),
 		ga: Object.values(games).reduce((acc, { gAgainst }) => acc + gAgainst, 0, 0),
-		wins: Object.values(games).reduce((acc, { gFor, gAgainst, ot }) => acc + (gFor > gAgainst && !ot), 0),
-		points: Object.values(games).reduce((acc, { gFor, gAgainst, ot }) => acc + (3 * (gFor > gAgainst) ^ ot), 0),
+		xgf: Object.values(games).reduce((acc, { xgFor }) => acc + xgFor, 0, 0).toFixed(1),
+		xga: Object.values(games).reduce((acc, { xgAgainst }) => acc + xgAgainst, 0, 0).toFixed(1),
+		wins: Object.values(games).reduce((acc, { gFor, gAgainst, xgFor, xgAgainst, ot }) => {
+			if (!expected) {
+				return acc + (gFor > gAgainst && !ot);
+			} else {
+				return acc + (xgFor >= xgAgainst + 0.5);
+			}
+		}, 0),
+		points: Object.values(games).reduce((acc, { gFor, gAgainst, xgFor, xgAgainst, ot }) => {
+			if (!expected) {
+				return acc + (3 * (gFor > gAgainst) ^ ot);
+			} else if (xgFor >= xgAgainst + 0.5) {
+				return acc + 3;
+			} else if (xgFor > xgAgainst) {
+				return acc + 2;
+			} else if (xgFor == xgAgainst) {
+				return acc + 1.5;
+			} else if (xgFor > xgAgainst - 0.5) {
+				return acc + 1;
+			} else {
+				return acc;
+			}
+		}, 0),
 	})).toSorted((a, b) => {
 		let d = (b.points * a.games) - (a.points * b.games);
 		if (d)
@@ -41,6 +63,11 @@ function buildstand(teams) {
 		d = b.wins - a.wins;
 		if (d)
 			return d;
+		if (expected) {
+			d = (b.xgf - b.xga) - (a.xgf - a.xga);
+			if (d)
+				return d;
+		}
 		d = (b.gf - b.ga) - (a.gf - a.ga);
 		if (d)
 			return d;
@@ -96,8 +123,8 @@ function updatestand() {
 			delete gteams[home].games[id];
 			delete gteams[away].games[id];
 		} else {
-			gteams[home].games[id] = { opponent: away, gFor: score[0], gAgainst: score[1], ot: score[2], home: true, played: played };
-			gteams[away].games[id] = { opponent: home, gFor: score[1], gAgainst: score[0], ot: score[2], home: false, played: played };
+			gteams[home].games[id] = { opponent: away, gFor: score[0], xgFor: score[0] / 3, gAgainst: score[1], xgAgainst: score[1] / 3, ot: score[2], home: true, played: played };
+			gteams[away].games[id] = { opponent: home, gFor: score[1], xgFor: score[1] / 3, gAgainst: score[0], xgAgainst: score[0] / 3, ot: score[2], home: false, played: played };
 		}
 	}
 
@@ -107,14 +134,14 @@ function updatestand() {
 		played <= end &&
 		(homet || !home) &&
 		(awayt || home)
-		)).slice(last)]).reduce((acc, [name, games]) => ({ ...acc, [name]: { games } }), {}));
+		)).slice(last)]).reduce((acc, [name, games]) => ({ ...acc, [name]: { games } }), {}), !!document.getElementById('expected').checked);
 			
 	let fs = document.getElementById('standings')
 	fs.replaceChildren();
 
 	for (const team of teams) {
 		let row = fs.insertRow();
-		for (const c of ['name', 'games', 'wins', 'points', 'gf', 'ga'])
+		for (const c of ['name', 'games', 'wins', 'points', 'gf', 'ga', 'xgf', 'xga'])
 			row.insertCell().innerText = team[c];
 	}
 }
@@ -140,8 +167,8 @@ fetch('games.json').then(r => r.json()).then(games => {
 	for (const i in games) {
 		const g = games[i];
 		if (g.homeScore !== undefined) {
-			(gteams[g.home] || (gteams[g.home] = { games: {} })).games[i] = { opponent: g.away, gFor: g.homeScore, gAgainst: g.awayScore, ot: g.det != '', played: g.played, home: true };
-			(gteams[g.away] || (gteams[g.away] = { games: {} })).games[i] = { opponent: g.home, gFor: g.awayScore, gAgainst: g.homeScore, ot: g.det != '', played: g.played, home: false };
+			(gteams[g.home] || (gteams[g.home] = { games: {} })).games[i] = { opponent: g.away, gFor: g.homeScore, gAgainst: g.awayScore, xgFor: g.homeExp, xgAgainst: g.awayExp, ot: g.det != '', played: g.played, home: true };
+			(gteams[g.away] || (gteams[g.away] = { games: {} })).games[i] = { opponent: g.home, gFor: g.awayScore, gAgainst: g.homeScore, xgFor: g.awayExp, xgAgainst: g.homeExp, ot: g.det != '', played: g.played, home: false };
 		} else {
 			let row = up.insertRow();
 			row.dataset.game = g.home + ' - ' + g.away;
@@ -155,7 +182,7 @@ fetch('games.json').then(r => r.json()).then(games => {
 			row.insertCell().appendChild(radio(g.played, g.home, g.away, i, '2'));
 		}
 	}
-	let teams = buildstand(gteams);
+	let teams = buildstand(gteams, false);
 	let start = document.getElementById('start');
 	let end = document.getElementById('end');
 	for (const day of [...new Set(games.map(g => g.played)).keys()].toSorted()) {
@@ -171,6 +198,7 @@ fetch('games.json').then(r => r.json()).then(games => {
 	document.getElementById('home').addEventListener('click', delayedupdate);
 	document.getElementById('away').addEventListener('click', delayedupdate);
 	document.getElementById('reverse').addEventListener('click', delayedupdate);
+	document.getElementById('expected').addEventListener('click', delayedupdate);
 	document.getElementById('upcomingfilter').addEventListener('change', filterupcoming);
 	document.getElementById('rand').addEventListener('click', () => {
 		let decided = {};
@@ -214,7 +242,7 @@ fetch('games.json').then(r => r.json()).then(games => {
 	for (const team of teams) {
 		let row = fs.insertRow();
 		row.insertCell().appendChild(newcheck(team.name));
-		for (const c of ['name', 'games', 'wins', 'points', 'gf', 'ga'])
+		for (const c of ['name', 'games', 'wins', 'points', 'gf', 'ga', 'xgf', 'xga'])
 			row.insertCell().innerText = team[c];
 
 		let name = team.name;
