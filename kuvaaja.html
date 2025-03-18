@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #graph-container {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+      .entry:hover * {
+        stroke: #000;
+        stroke-width: 2px;
+      }
+      .entry:hover text {
+        stoke-width: 0.2px !important;
+        stroke: #000 !important;
+        fill: #666666 !important;
+      }
+    </style>
+    <script src="kuvaaja.js"></script>
+  </head>
+  <body>
+    <div>
+      <svg
+          width="220"
+          height="120"
+          viewBox="0 0 220 120"
+          version="1.1"
+          id="graph-container"
+          xmlns="http://www.w3.org/2000/svg">
+        <g style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none">
+         <rect width="200" height="100" x="10" y="10" ry="0" />
+        </g>
+        <g id="graph" style="fill:none" transform="translate(10 10)">
+        </g>
+      </svg>
+    </div>
+    <fieldset>
+      <legend>Määreet</legend>
+      <label for="xaxis">X: <select id="xaxis"></select></label><label for="yaxis">Y: <select id="yaxis"></select></label>
+    </fieldset>
+    <fieldset>
+      <legend>Oma</legend>
+      <label for="xcustom">X: <textarea id="xcustom" rows="5" cols="40">
+let pelit = 0;
+return [0, () =&gt; ++pelit];
+</textarea>
+      <label for="ycustom">Y: <textarea id="ycustom" rows="5" cols="40">
+let pisteet = 0;
+return [0, ({ points: pelipisteet }) =&gt; pisteet += pelipisteet];
+</textarea>
+
+
+  </body>
+  </head>
