@@ -40,6 +40,10 @@ function graph(datas, options) {
   let minx = Math.min(...Object.values(datas).flatMap(data => data.map(([x, y]) => x)));
   let maxy = options.yrange ? options.yrange.min : Math.max(...Object.values(datas).flatMap(data => data.map(([x, y]) => y)));
   let maxx = Math.max(...Object.values(datas).flatMap(data => data.map(([x, y]) => x)));
+  if (maxx == minx)
+    maxx = minx + 1;
+  if (maxy == miny)
+    maxy = miny + 1;
 
   const colors = ["#e60049", "#0bb4ff", "#50e991", "#e6d800", "#9b19f5", "#ffa300", "#dc0ab4", "#b3d4ff", "#00bfa0",
     "#b30000", "#7c1158", "#4421af", "#1a53ff", "#0d88e6", "#00b7c7", "#5ad45a", "#8be04e", "#ebdc78"];
@@ -84,10 +88,12 @@ class Game {
   }
 
   get points() {
-    return 3 * (this.gf > this.ga) ^ this.ot;
+    return this.gf !== undefined ? 3 * (this.gf > this.ga) ^ this.ot : undefined;
   }
 
   get expPoints() {
+    if (this.gf === undefined)
+      return undefined;
     if (this.egf > this.ega + 0.5)
       return 3;
     if (this.egf > this.ega)
@@ -100,16 +106,17 @@ class Game {
   }
 
   get gd() {
-    return this.gf - this.ga;
+    return this.gf !== undefined ? this.gf - this.ga : undefined;
   }
 
   get egd() {
-    return this.egf - this.ega;
+    return this.gf !== undefined ? this.egf - this.ega : undefined;
   }
 };
 
 const functions = [
   { name: "Pisteet", func: fieldsummer('points') },
+  { name: "Ottelupisteet", func: fieldgetter('points') },
   { name: "Pisteodottama", func: fieldsummer('expPoints') },
   { name: "Pisteet-per-peli", func: fieldavgr('points', 1.5) },
   { name: "Pisteodottama-per-peli", func: fieldavgr('expPoints', 1.5) },
@@ -127,6 +134,8 @@ const functions = [
   { name: "5 pelin keskiarvo", func: fieldwindowavgr('points', 5) },
   { name: "Peliä 5 päivässä", func: gamesin5 },
   { name: "Putki", func: consecutive },
+  { name: "Lepoetu", func: restadv1 },
+  { name: "Lepoetukertymä", func: restadvsum },
   { name: "Oma X", func: customx },
   { name: "Oma Y", func: customy },
 ];
@@ -145,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   for (const [ta, f] of [['x', customx], ['y', customy]].map(([id, f]) => [document.getElementById(id + 'custom'), f])) {
     document.getElementById('xcustom').addEventListener('change', () => {
-      if (axes.any(i => functions[i.selectedIndex].func == f))
+      if (axes.some(i => functions[i.selectedIndex].func == f))
 	update();
     });
   }
@@ -153,19 +162,29 @@ document.addEventListener('DOMContentLoaded', () => {
   update();
 });
 
+function ifdef(x, y) {
+  if (x === undefined || Number.isNaN(x))
+    return undefined;
+  return y(x);
+}
+
 function summer(f) {
   let acc = 0;
-  return [acc, (g) => acc += f(g)];
+  return [acc, function () { return ifdef(f(...arguments), x => acc += x) }];
 }
 
 function fieldsummer(field) {
   return () => summer((g) => g[field]);
 }
 
+function fieldgetter(field) {
+  return () => [undefined, (g) => g[field]];
+}
+
 function averager(f, initial) {
   let counter = 0;
   let acc = 0;
-  return [initial, (g) => (acc += f(g)) / ++counter];
+  return [initial, (g) => ifdef(f(g), x => (acc += x) / ++counter)];
 }
 
 function fieldavgr(field, initial) {
@@ -174,7 +193,12 @@ function fieldavgr(field, initial) {
 
 function windowaverager(f, n) {
   let win = [];
-  return [undefined, (g) => (win = [...win, f(g)].slice(-n)).reduce(([pa, n], p) => [(pa * n + p) / (n + 1), n + 1], [0, 0])[0]];
+  return [undefined, (g) => {
+    let x = f(g);
+    if (x === undefined || Number.isNaN(x))
+      return undefined;
+    return (win = [...win, f(g)].slice(-n)).reduce(([pa, n], p) => [(pa * n + p) / (n + 1), n + 1], [0, 0])[0]
+  }];
 }
 
 function fieldwindowavgr(field, n) {
@@ -187,7 +211,7 @@ function gamecount() {
 
 function gamesin5() {
   let win = [];
-  return [undefined, ({ date }) => (win = [...win.filter(d => date - d < (5 * 24 + 1) * 3600000), date]).length];
+  return [undefined, ({ date }) => (win = [...win.filter(d => date - d <= (5 * 24 + 1) * 3600000), date]).length];
 }
 
 function date() {
@@ -217,16 +241,23 @@ function gdovere() {
 function consecutive() {
   let n;
 
-  return [undefined, ({ gf, ga }) => {
-    if (gf > ga) {
-      if (!(n > 0))
-	n = 0;
-      return ++n;
-    }
-    if (!(n < 0))
+  return [undefined, ({ gf, ga }) => ifdef(Math.sign(gf - ga), x => {
+    if (Math.sign(n) != x)
       n = 0;
-    return --n;
-  }];
+    return n += x;
+  })];
+}
+
+function restadv({ date }, pgame, opgame) {
+  return Math.min(Math.round((date - (pgame ? pgame.date : 0)) / (24 * 3600000)), 4) - Math.min(Math.round((date - (opgame ? opgame.date : 0)) / (24 * 3600000)), 4);
+}
+
+function restadv1() {
+  return [undefined, restadv];
+}
+
+function restadvsum() {
+  return summer(restadv);
 }
 
 function update() {
@@ -245,18 +276,23 @@ function update() {
   }, {});
   for (const { home, away, homeScore, awayScore, homeExp, awayExp, det, played } of games) {
     let ot = det !== '';
+    let prevs = {};
     for (const [team, opp, gf, ga, egf, ega] of [[home, away, homeScore, awayScore, homeExp, awayExp], [away, home, awayScore, homeScore, awayExp, homeExp]]) {
-      let g = new Game({ gf, ga, egf, ega, det, played });
-      let {points, xf, yf} = teams[team];
-      let y = yf(g);
-      let x = xf(g);
-      points.push([x, y, '' + team + ': ' + y + '/' + x + '\n' + played + ' ' + home + ' - ' + away + ' ' + homeScore + '-' + awayScore + det]);
+      let g = new Game({ home: team == home, opp, gf, ga, egf, ega, det, played });
+      let { points, xf, yf, prev } = teams[team];
+      let y = yf(g, prev, teams[opp].prev);
+      let x = xf(g, prev, teams[opp].prev);
+      if (y !== undefined && x !== undefined)
+        points.push([x, y, '' + team + ': ' + y + '/' + x + '\n' + played + ' ' + home + ' - ' + away + ' ' + homeScore + '-' + awayScore + det]);
+      prevs[team] = g;
     }
+    for (const [team, prev] of Object.entries(prevs))
+      teams[team].prev = prev;
   }
   graph(Object.entries(teams).reduce((acc, [name, { points }]) => ({ ...acc, [name]: points }), {}));
 }
 
 fetch('games.json').then(r => r.json()).then(data => {
-  games = data.filter(g => g.homeScore !== undefined);
+  games = data;
   update();
 });

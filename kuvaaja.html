@@ -44,12 +44,11 @@
       <label for="xcustom">X: <textarea id="xcustom" rows="5" cols="40">
 let pelit = 0;
 return [0, () =&gt; ++pelit];
-</textarea>
+      </textarea></label>
       <label for="ycustom">Y: <textarea id="ycustom" rows="5" cols="40">
 let pisteet = 0;
-return [0, ({ points: pelipisteet }) =&gt; pisteet += pelipisteet];
-</textarea>
-
-
+return [0, ({ points: pelipisteet }) =&gt; ifdef(pelipisteet, (pp) =&gt; pisteet += pp)];
+      </textarea></label>
+    </fieldset>
   </body>
-  </head>
+</html>
