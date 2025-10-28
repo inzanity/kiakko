@@ -26,7 +26,7 @@ function newcheck(id) {
 	});
 }
 
-function buildstand(teams, expected) {
+function buildstand(teams, expected, expthresh) {
 	return Object.entries(teams).map(([name, { games }]) => ({
 		name,
 		games: Object.keys(games).length,
@@ -38,19 +38,19 @@ function buildstand(teams, expected) {
 			if (!expected) {
 				return acc + (gFor > gAgainst && !ot);
 			} else {
-				return acc + (xgFor >= xgAgainst + 0.5);
+				return acc + (xgFor >= xgAgainst + expthresh);
 			}
 		}, 0),
 		points: Object.values(games).reduce((acc, { gFor, gAgainst, xgFor, xgAgainst, ot }) => {
 			if (!expected) {
 				return acc + (3 * (gFor > gAgainst) ^ ot);
-			} else if (xgFor >= xgAgainst + 0.5) {
+			} else if (xgFor >= xgAgainst + expthresh) {
 				return acc + 3;
 			} else if (xgFor > xgAgainst) {
 				return acc + 2;
 			} else if (xgFor == xgAgainst) {
 				return acc + 1.5;
-			} else if (xgFor > xgAgainst - 0.5) {
+			} else if (xgFor > xgAgainst - expthresh) {
 				return acc + 1;
 			} else {
 				return acc;
@@ -134,7 +134,7 @@ function updatestand() {
 		played <= end &&
 		(homet || !home) &&
 		(awayt || home)
-		)).slice(last)]).reduce((acc, [name, games]) => ({ ...acc, [name]: { games } }), {}), !!document.getElementById('expected').checked);
+		)).slice(last)]).reduce((acc, [name, games]) => ({ ...acc, [name]: { games } }), {}), !!document.getElementById('expected').checked, Number(document.getElementById('expthresh').value));
 			
 	let fs = document.getElementById('standings')
 	fs.replaceChildren();
@@ -182,7 +182,7 @@ fetch('games.json').then(r => r.json()).then(games => {
 			row.insertCell().appendChild(radio(g.played, g.home, g.away, i, '2'));
 		}
 	}
-	let teams = buildstand(gteams, false);
+	let teams = buildstand(gteams, false, null);
 	let start = document.getElementById('start');
 	let end = document.getElementById('end');
 	for (const day of [...new Set(games.map(g => g.played)).keys()].toSorted()) {
@@ -199,6 +199,7 @@ fetch('games.json').then(r => r.json()).then(games => {
 	document.getElementById('away').addEventListener('click', delayedupdate);
 	document.getElementById('reverse').addEventListener('click', delayedupdate);
 	document.getElementById('expected').addEventListener('click', delayedupdate);
+	document.getElementById('expthresh').addEventListener('change', delayedupdate);
 	document.getElementById('upcomingfilter').addEventListener('change', filterupcoming);
 	document.getElementById('rand').addEventListener('click', () => {
 		let decided = {};
