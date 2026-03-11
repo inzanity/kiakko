@@ -1,54 +1,109 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      #graph-container {
-        width: 100%;
-        display: block;
-        height: auto;
-      }
-      .entry:hover * {
-        stroke: #000;
-        stroke-width: 2px;
-      }
-      .entry:hover text {
-        stoke-width: 0.2px !important;
-        stroke: #000 !important;
-        fill: #666666 !important;
-      }
-    </style>
-    <script src="kuvaaja.js"></script>
-  </head>
-  <body>
-    <div>
-      <svg
-          width="220"
-          height="120"
-          viewBox="0 0 220 120"
-          version="1.1"
-          id="graph-container"
-          xmlns="http://www.w3.org/2000/svg">
-        <g style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none">
-         <rect width="200" height="100" x="10" y="10" ry="0" />
-        </g>
-        <g id="graph" style="fill:none" transform="translate(10 10)">
-        </g>
-      </svg>
-    </div>
-    <fieldset>
-      <legend>Määreet</legend>
-      <label for="xaxis">X: <select id="xaxis"></select></label><label for="yaxis">Y: <select id="yaxis"></select></label>
-    </fieldset>
-    <fieldset>
-      <legend>Oma</legend>
-      <label for="xcustom">X: <textarea id="xcustom" rows="5" cols="40">
+<html lang="fi">
+	<head>
+		<title>kiakko.xyz</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="kiakko.css">
+		<title>Runkosarjakuvaaja</title>
+		<style>
+			dt {
+				font-weight: normal;
+				font-family: monospace;
+			}
+			dd {
+				margin-left: 2em;
+			}
+			#graph-container {
+				width: 100%;
+				display: block;
+				height: auto;
+			}
+			.entry:hover * {
+				stroke: #000;
+				stroke-width: 2px;
+			}
+			.entry:hover text {
+				stoke-width: 0.2px !important;
+				stroke: #000 !important;
+				fill: #666666 !important;
+			}
+		</style>
+		<script src="kuvaaja.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>kiakko</h1>
+			<nav>
+				<menu>
+					<li><a href="simu">simu</a></li>
+					<li><a href="isimu">isimu</a></li>
+					<li><a href="sarja">sarja</a></li>
+					<li><a href="kuvaaja">kuvaaja</a></li>
+				</menu>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<svg
+						width="220"
+						height="120"
+						viewBox="0 0 220 120"
+						version="1.1"
+						id="graph-container"
+						xmlns="http://www.w3.org/2000/svg">
+					<g style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none">
+					<rect width="200" height="100" x="10" y="10" ry="0" />
+					</g>
+					<g id="graph" style="fill:none" transform="translate(10 10)">
+					</g>
+				</svg>
+				</div>
+				<fieldset>
+					<legend>Määreet</legend>
+					<label for="xaxis">X: <select id="xaxis"></select></label><label for="yaxis">Y: <select id="yaxis"></select></label>
+				</fieldset>
+				<fieldset>
+					<legend>Oma</legend>
+					<label for="xcustom">X: <textarea id="xcustom" rows="5" cols="40">
 let pelit = 0;
 return [0, () =&gt; ++pelit];
-      </textarea></label>
-      <label for="ycustom">Y: <textarea id="ycustom" rows="5" cols="40">
+					</textarea></label>
+					<label for="ycustom">Y: <textarea id="ycustom" rows="5" cols="40">
 let pisteet = 0;
 return [0, ({ points: pelipisteet }) =&gt; ifdef(pelipisteet, (pp) =&gt; pisteet += pp)];
-      </textarea></label>
-    </fieldset>
-  </body>
+					</textarea></label>
+					<div>
+						<small>
+							Oman funktion pitää olla javascript-koodia, joka palauttaa taulukon [alkuarvo, funktio], jossa funktio palauttaa joukkuekuvaajan uuden arvon, kun saa syötteenä objektin, jonka ominaisuudet ovat:
+							<dl>
+								<dt>gf</dt>
+								<dd>Tehdyt maalit</dd>
+								<dt>ga</dt>
+								<dd>Päästetyt maalit</dd>
+								<dt>gd</dt>
+								<dd>Maaliero</dd>
+								<dt>egf</dt>
+								<dd>Maaliodottama</dd>
+								<dt>ega</dt>
+								<dd>Vastustajan maaliodottama</dd>
+								<dt>egd</dt>
+								<dd>Maaliodottamaero</dd>
+								<dt>points</dt>
+								<dd>Pisteet</dd>
+								<dt>expPoints</dt>
+								<dd>Odottaman mukaiset pisteet (alle 0.5 ero tulkitaan jatkoajaksi)</dd>
+								<dt>ot</dt>
+								<dd>Jatkoaika</dd>
+								<dt>date</dt>
+								<dd>Aikaleima</dd>
+								<dt>home</dt>
+								<dd>Kotiottelu</dd>
+							</dl>
+						</small>
+					</div>
+				</fieldset>
+			</article>
+		</main>
+		<footer>Virhe datassa, <a href="mailto:kiakko@kiakko.xyz">ilmianna virhe</a>. Muu virhe tai toive, <a href="https://github.com/inzanity/kiakko">raportoi</a>. <a href="/kiakko/">Seuraa</a></footer>
+	</body>
 </html>

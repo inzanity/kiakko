@@ -1,44 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 	<head>
+		<title>kiakko.xyz</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="kiakko.css">
 		<title>Sarjataulukkolaskuri</title>
 		<script src="sarja.js"></script>
 	</head>
 	<body>
-		<h1>Nykyinen sarjataulukko</h1>
-		<table>
-		<thead>
-			<tr><th>[]</th><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>xTM</th><th>xPM</th><th>Tulevat</th></tr>
-		</thead>
-		<tbody id="fullstandings">
-		</tbody>
-		</table>
-		<label for="last">Puntari: <input type="text" value="0" id="last" size="3" /></label>
-		<select id="start"></select><select id="end"></select>
-		<label for="reverse"><input type="checkbox" id="reverse" />vs muut</label>
-		<label for="home"><input type="checkbox" id="home" checked="checked" />Koti</label>
-		<label for="away"><input type="checkbox" id="away" checked="checked" />Vieras</label>
-		<label for="expected"><input type="checkbox" id="expected" />Odottama</label>
-		<label for="expthresh"><input type="text" id="expthresh" value="0.5" size="3" />Odottama 3p erotus</label>
+		<header>
+			<h1>kiakko</h1>
+			<nav>
+				<menu>
+					<li><a href="simu">simu</a></li>
+					<li><a href="isimu">isimu</a></li>
+					<li><a href="sarja">sarja</a></li>
+					<li><a href="kuvaaja">kuvaaja</a></li>
+				</menu>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<h1>Nykyinen sarjataulukko</h1>
+				<table>
+					<thead>
+						<tr><th>[]</th><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>xTM</th><th>xPM</th><th>Tulevat</th></tr>
+					</thead>
+					<tbody id="fullstandings">
+					</tbody>
+				</table>
+				<fieldset>
+					<legend>Puntari</legend>
+					<label for="last"><input type="text" value="0" id="last" size="3" /> viimeistä ottelua</label>
+				</fieldset>
+				<fieldset>
+					<legend>Päivämääräväli</legend>
+					<select id="start"></select> - <select id="end"></select>
+				</fieldset>
+				<fieldset>
+					<legend>Vastustajarajaus</legend>
+					<label for="reverse"><input type="checkbox" id="reverse" />vs muut</label>
+				</fieldset>
+				<fieldset>
+					<legend>Ottelurajaus</legend>
+					<label for="home"><input type="checkbox" id="home" checked="checked" />Koti</label>
+					<label for="away"><input type="checkbox" id="away" checked="checked" />Vieras</label>
+				</fieldset>
+				<fieldset>
+					<legend>Maaliodottama</legend>
+					<label for="expected"><input type="checkbox" id="expected" />käytössä</label>
+					<label for="expthresh"><input type="text" id="expthresh" value="0.5" size="3" />Odottama 3p erotus</label>
+				</fieldset>
+			</article>
 
-		<h1>Laskettu sarjataulukko</h1>
-		<table>
-		 <thead>
-			 <tr><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>xTM</th><th>xPM</th></tr>
-		 </thead>
-		 <tbody id="standings">
-		 </tbody>
-		</table>
+			<article>
+				<h1>Laskettu sarjataulukko</h1>
+				<table>
+					<thead>
+						<tr><th>Nimi</th><th>O</th><th>V</th><th>P</th><th>TM</th><th>PM</th><th>xTM</th><th>xPM</th></tr>
+					</thead>
+					<tbody id="standings">
+					</tbody>
+				</table>
+			</article>
 
-		<h1>Tulevat ottelut</h1>
-		<input type="text" id="upcomingfilter" placeholder="Suodata...">
-		<button id="rand">Arvo kaikki</button><button id="randundecided">Arvo tyhjät</button>
-		<table>
-		 <thead>
-		  <tr><th>Koti</th><th></th><th>Vieras</th><th>1</th><th>1x</th><th>0</th><th>2x</th><th>2</th></tr>
-		 </thead>
-		 <tbody id="upcoming">
-		 </tbody>
-		</table>
+			<article>
+				<h1>Tulevat ottelut</h1>
+				<input type="text" id="upcomingfilter" placeholder="Suodata...">
+				<button id="rand">Arvo kaikki</button><button id="randundecided">Arvo tyhjät</button>
+				<table>
+					<thead>
+						<tr><th>Koti</th><th></th><th>Vieras</th><th>1</th><th>1x</th><th>0</th><th>2x</th><th>2</th></tr>
+					</thead>
+					<tbody id="upcoming">
+					</tbody>
+				</table>
+			</article>
+		</main>
+		<footer>Virhe datassa, <a href="mailto:kiakko@kiakko.xyz">ilmianna virhe</a>. Muu virhe tai toive, <a href="https://github.com/inzanity/kiakko">raportoi</a>. <a href="/kiakko/">Seuraa</a></footer>
 	</body>
 </html>
